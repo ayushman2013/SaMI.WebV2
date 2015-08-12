@@ -1,0 +1,25 @@
+TRNEmployment
+OrganizationID
+Organization - varchar(100)
+
+RecruitmentAgencyID
+RecruitmentAgency - varchar(100)
+
+
+delete relationship with organization and recruitmentagency
+
+
+TRNCurrentEmployment
+
+RecruitmentAgencyID
+- change -RecruitmentAgency - varchar(100)
+
+- add - WorkingYear - varchar(50) - null
+- add - WorkingMonth - varchar(50) - null
+- add - Occupation - varchar(100) - null
+- add - MonthlySalary - varchar(50) - null
+- add - ReturnDate - varchar(50) - null
+
+
+tbl_samiprofile
+change - registrationdate - datetime

@@ -1,0 +1,110 @@
+function get_phase($task_id){
+	$task = '';
+	$this->db->where('task_id',$task_id);
+	$query = $this->db->get('project_phases');
+	if($query->num_rows()>0){
+		$row = $query->row();
+		$task .= '<script type="text/javascript">
+	function addtask(){
+		var chkArray = [];
+		$(".selected_employee:checked").each(function() {
+			chkArray.push($(this).val());
+		});
+		var selected;
+   		selected = chkArray.join(',') + ",";
+		var title 	= $("#task_title").val();
+		var phase 	= $("#task_phase").val();	
+		var employee= selected;
+		var priority= $("#task_prioriity").val();
+		var project = $("#tproject_id").val();
+		var deadline= $("#task_deadline").val();
+		var sdate	= $("#task_start_date").val();
+		var edate	= $("#task_end_date").val();
+		var tdetails= $("#task_description").val();
+		$.ajax({
+			type:"POST",
+			url:"<?php echo base_url();?>project/addtask",
+			data:"title="+title+"&tdetails="+tdetails+"&sdate="+sdate+"&project="+project+"&edate="+edate+"&phase="+phase+"&employee="+employee+"&priority="+priority+"&deadline="+deadline+"&action=addtask",
+			success:function(msg){
+				if(msg=='yes'){
+					$("#alert-success3").show();
+					$("#alert-success3").html('Project task added successfully');
+					$("#phase_name").val('');
+					$("#phase_description").val('');				
+					$("#alert-success3").delay(5000).slideUp('slow',function(){
+						$("#alert-success3").html('');
+					});
+					$("#task_title").val('');
+					$("#task_phase").val('');
+					//$("#task_employee").val('');
+					$("#task_prioriity").val('');
+					$("#task_deadline").val('');
+					$("#task_start_date").val('');
+					$("#task_end_date").val('');
+					$("#task_description").val('');					
+				}else{
+					$("#alert-danger3").show();
+					$("#alert-danger3").html(msg);
+					$("#alert-danger3").delay(5000).slideUp('slow',function(){
+						$("#alert-danger3").html('');
+					});
+					
+				}				
+			}
+		});
+	}
+</script>
+<div class="modal-dialog">
+    <form name="addtask" action="javascript:addtask()">
+      <input type="hidden" name="project_id" id="tproject_id" value="<?php echo $result->project_id;?>" />
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h1 class="modal-title" id="myModalLabel">Add Task</h1>
+        </div>
+        <div class="modal-body">
+          <div class="alert alert-danger" id="alert-danger3"></div>
+          <div class="alert alert-success" id="alert-success3"></div>
+          <input type="text" id="task_title" class="form-control input-lg" placeholder="Task Title" required />
+          <table cellpadding="5" cellspacing="0" border="0" width="100%" class="table-tab col-md-12" style="margin-top: 10px;">
+            <tr>
+              <td><label>Assigned To</label></td>
+              <td><select name="employee[]" id="task_employee"  multiple="multiple" class="form-control input-sm selectpicker show-tick" data-live-search="true">
+                  <?php echo $this->projectmodel->listEmployees();?>
+                </select></td>
+              <td><label>Component</label></td>
+              <td><select name="component" id="task_phase" class="form-control input-sm selectpicker show-tick" data-live-search="true">
+                  <option value="">&nbsp;</option>
+                  <?php echo $this->projectmodel->listcomponentscombo($result->project_id);?>
+                </select></td>
+            </tr>
+            <tr>
+              <td><label>Priority</label></td>
+              <td><select name="priority" id="task_prioriity" class="form-control input-sm selectpicker show-tick">
+                  <option value="Low">Low</option>
+                  <option value="Medium">Medium</option>
+                  <option value="High" selected="selected">High</option>
+                </select></td>
+              <td><label>Deadline</label></td>
+              <td><input type="text" class="form-control input-sm" id="task_deadline"/></td>
+            </tr>
+            <tr>
+              <td><label>Start Date</label></td>
+              <td><input type="text" class="form-control input-sm" id="task_start_date"/></td>
+              <td><label>End Date</label></td>
+              <td><input type="text" class="form-control input-sm" id="task_end_date"/></td>
+            </tr>
+          </table>
+          <textarea  rows="6" class="col-md-12 modal-textarea" id="task_description" style="margin-top: 5px;" placeholder="Description"></textarea>
+        </div>
+        <div class="modal-footer">
+          <input type="submit" name="submit" value="Save" class="btn btn-primary"/>
+          <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+  </div>';
+    </form>
+			}
+			$query->free_result();
+			return $task;
+}

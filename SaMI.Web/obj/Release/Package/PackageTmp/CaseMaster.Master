@@ -1,0 +1,41 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="CaseMaster.master.cs" Inherits="SaMI.Web.CaseMaster" %>
+
+<%@ Register src="~/CaseDocumentation/controls/header.ascx" tagname="header" tagprefix="ucHeader" %>
+<%@ Register src="~/CaseDocumentation/controls/footer.ascx" tagname="footer" tagprefix="ucFooter" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head id="Head1" runat="server">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="~/assets/css/jquery-ui-1.10.3.custom.min.css" />
+    <link rel="stylesheet" href="~/assets/css/gridview-pagination.css"/>
+    <link rel="stylesheet" href="~/assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/assets/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="~/assets/css/jquery-ui.css" />
+    
+    <link href="~/Styles/style.css" rel="stylesheet" />
+    <script type="text/javascript" src="/assets/js/jquery.js"></script>
+    <script type="text/javascript" src="/assets/js/bootstrap.min.js"></script>
+    
+     <script type="text/javascript" src="/assets/js/jquery-ui.js"></script>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+ <form id="Form1" runat="server"  class="validate">
+    
+        <ucHeader:header ID="header" runat="server" />
+        <div  style="margin-top:50px;"> </div>
+        <div class="container" style="min-height:500px">
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        
+        </asp:ContentPlaceHolder>
+       </div>
+       
+        <ucFooter:footer ID="footer" runat="server" />
+               
+    </form>
+</body>
+</html>

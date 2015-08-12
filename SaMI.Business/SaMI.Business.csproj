@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{798898DB-A4C3-4D9B-98BD-2943BA215C3E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SaMI.Business</RootNamespace>
+    <AssemblyName>SaMI.Business</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdditionalFollowUpInfoBO.cs" />
+    <Compile Include="AdditionalFollowUpInfoPerServiceBO.cs" />
+    <Compile Include="AgeGroupBO.cs" />
+    <Compile Include="AppCommonBO.cs" />
+    <Compile Include="CaseBO.cs" />
+    <Compile Include="CaseDocumentationsBO.cs" />
+    <Compile Include="CaseFollowUpBO.cs" />
+    <Compile Include="CaseReferralHistoryBO.cs" />
+    <Compile Include="CaseReferredBO.cs" />
+    <Compile Include="CaseRegistrarBO.cs" />
+    <Compile Include="CaseStatusTypeBO.cs" />
+    <Compile Include="CaseTypesBO.cs" />
+    <Compile Include="CasteBO.cs" />
+    <Compile Include="CounselorDifficultiesBO.cs" />
+    <Compile Include="CounselorDifficultiesPerServiceBO.cs" />
+    <Compile Include="CountriesBO.cs" />
+    <Compile Include="DecisionStatusBO.cs" />
+    <Compile Include="DestinationAirportsBO.cs" />
+    <Compile Include="DistrictBO.cs" />
+    <Compile Include="DocumentsBehindBO.cs" />
+    <Compile Include="DocumentsPerOtherMemberMigrationBO.cs" />
+    <Compile Include="DocumentTypesBO.cs" />
+    <Compile Include="EducationalStatusBO.cs" />
+    <Compile Include="EmploymentBO.cs" />
+    <Compile Include="EmploymentSkillBO.cs" />
+    <Compile Include="EthnicityBO.cs" />
+    <Compile Include="EvidencesPerCaseBO.cs" />
+    <Compile Include="EvidenceTypeBO.cs" />
+    <Compile Include="FamilyMembersBO.cs" />
+    <Compile Include="FEDocumentsPerSaMIProfileBO.cs" />
+    <Compile Include="FeedDurationTypeBO.cs" />
+    <Compile Include="PhoneFollowUpInfoBO.cs" />
+    <Compile Include="PhoneFollowUpBO.cs" />
+    <Compile Include="FollowUpBO.cs" />
+    <Compile Include="FollowUpPerServicesBO.cs" />
+    <Compile Include="ForeignEmploymentStatusBO.cs" />
+    <Compile Include="ICKnowledgesBO.cs" />
+    <Compile Include="ICRecommendationsBO.cs" />
+    <Compile Include="ICRecommendationsPerServiceBO.cs" />
+    <Compile Include="JobOfferedTypesBO.cs" />
+    <Compile Include="JobOfferSourcesBO.cs" />
+    <Compile Include="KnowAboutTrainingBO.cs" />
+    <Compile Include="MaritalStatusBO.cs" />
+    <Compile Include="MoneyRangesBO.cs" />
+    <Compile Include="NonFollowUpReasonsBO.cs" />
+    <Compile Include="NonReferralReasonsBO.cs" />
+    <Compile Include="OccupationTypeBO.cs" />
+    <Compile Include="OtherFollowupPerServiceBO.cs" />
+    <Compile Include="OtherInfoPerSaMIProfileBO.cs" />
+    <Compile Include="OtherMemberMigrationBO.cs" />
+    <Compile Include="PassportStatusBO.cs" />
+    <Compile Include="PaymentRangesBO.cs" />
+    <Compile Include="PreviousFEExperienceBO.cs" />
+    <Compile Include="ProblemsPerOtherMemberMigrationBO.cs" />
+    <Compile Include="ProblemTypesBO.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReferralStatusBO.cs" />
+    <Compile Include="ReferralToBO.cs" />
+    <Compile Include="SaMIOrganizationBO.cs" />
+    <Compile Include="SaMIProfileBO.cs" />
+    <Compile Include="ServicesProvidedBO.cs" />
+    <Compile Include="ServicesProvidedPerSaMIBO.cs" />
+    <Compile Include="SkillPartnerBO.cs" />
+    <Compile Include="StakeholderBO.cs" />
+    <Compile Include="StayDurationBO.cs" />
+    <Compile Include="TrainingReasonTypeBO.cs" />
+    <Compile Include="TRNCheckListBO.cs" />
+    <Compile Include="TRNCurrentEmploymentBO.cs" />
+    <Compile Include="TRNDepartureChecklistBO.cs" />
+    <Compile Include="TRNEducationLevelBO.cs" />
+    <Compile Include="TRNEmploymentBO.cs" />
+    <Compile Include="TRNEmploymentStatusBO.cs" />
+    <Compile Include="TRNEmploymentTypeBO.cs" />
+    <Compile Include="TRNEthnicityBO.cs" />
+    <Compile Include="TRNInformaitonSourceBO.cs" />
+    <Compile Include="TRNOrganizationBO.cs" />
+    <Compile Include="TRNPreviousTrainingBO.cs" />
+    <Compile Include="TRNRecruitmentAgencyBO.cs" />
+    <Compile Include="TRNRecruitmentListBO.cs" />
+    <Compile Include="TRNTradeBO.cs" />
+    <Compile Include="TRNTraineeBO.cs" />
+    <Compile Include="TRNTrainingAgencyBO.cs" />
+    <Compile Include="TRNTrainingEventBO.cs" />
+    <Compile Include="UserBO.cs" />
+    <Compile Include="UserTypeBO.cs" />
+    <Compile Include="VDCBO.cs" />
+    <Compile Include="VisitFrequenciesBO.cs" />
+    <Compile Include="VisitFrequencyICCBO.cs" />
+    <Compile Include="VisitReasonBO.cs" />
+    <Compile Include="WorkTypesBO.cs" />
+    <Compile Include="ZonesBO.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SaMI.DataAccess\SaMI.DataAccess.csproj">
+      <Project>{5943E722-28B0-492A-AA20-9A1C6B02C9E3}</Project>
+      <Name>SaMI.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SaMI.DTO\SaMI.DTO.csproj">
+      <Project>{D9CF3599-D85D-4965-819C-B61BD050A1A4}</Project>
+      <Name>SaMI.DTO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SaMI.Utilities\SaMI.Utilities.csproj">
+      <Project>{B51C8E16-0205-4EAC-854A-297A732C40B1}</Project>
+      <Name>SaMI.Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

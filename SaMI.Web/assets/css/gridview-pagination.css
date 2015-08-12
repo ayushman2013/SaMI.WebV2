@@ -1,0 +1,43 @@
+﻿.paging
+        {
+           
+        }
+        
+        .paging a
+        {
+            background-color: white;
+            padding: 5px 7px;
+            text-decoration: none;
+        }
+        
+        .paging a:hover
+        {
+            background-color: white;
+            color: black;
+        }
+        
+        .paging span
+        {
+            background-color: white;
+            padding: 5px 7px;
+            color: black;
+            border: 1px solid black;
+        }
+        
+        tr.paging
+        {
+            background: none !important;
+        }
+        
+        tr.paging tr
+        {
+            background: none !important;
+        }
+        tr.paging td
+        {
+            border: none;
+        }
+        .paging table
+        {
+            width:200px;
+        }

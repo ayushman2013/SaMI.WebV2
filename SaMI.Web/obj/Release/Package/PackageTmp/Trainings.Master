@@ -1,0 +1,39 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Trainings.Master.cs" Inherits="SaMI.Web.Trainings" %>
+
+<%@ Register Src="/Training/Controls/Header.ascx" TagName="Header" TagPrefix="UCHeader" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>F-Skill Training</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="~/assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/assets/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="~/assets/css/jquery-ui.css"/>
+    <link rel="stylesheet" type="text/css" href="/Training/css/nepali.datepicker.css"/>
+    <link rel="stylesheet" href="~/assets/css/gridview-pagination.css"/>
+    <link href="~/Styles/style.css" rel="stylesheet" />
+
+    <script type="text/javascript" src="/assets/js/jquery.js"></script>
+    <script type="text/javascript" src="/assets/js/bootstrap.min.js"></script>
+    <%--<script type="text/javascript" src="/Training/js/bootstrap-datepicker.js"></script>--%>
+    <script type="text/javascript" src="/assets/js/jquery-ui.js"></script>
+    <script type="text/javascript" src="/Training/js/nepali.datepicker.js"></script>
+    
+     
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <UCHeader:Header ID="headerMenu" runat="server" />
+    <div>
+        <div class="container">
+            <asp:ContentPlaceHolder ID="TrainingBody" runat="server">
+
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

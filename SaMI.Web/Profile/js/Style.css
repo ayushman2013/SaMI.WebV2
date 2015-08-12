@@ -1,0 +1,27 @@
+﻿.gridViewPager  tr.paging td {
+               background-color: #FFFFFF;
+                   border-bottom: 0;
+                   color: #000000;
+                   font-size:13px;
+               padding:0 4px 0 0;
+                 } 
+         .gridViewPager  tr.paging {
+              background-color: #FFFFFF;
+                  border: 0;
+                  color: #000000;
+                  font-size: 12px;
+                  padding:0;
+                 } 
+        .gridViewPager  tr.paging td span {
+                 color:#993366;
+             text-decoration:underline; 
+                 font-size:13px;
+                 } 
+        .gridViewPager  tr.paging td a {
+             color:#000000;
+             text-decoration:none;
+                }
+        .gridViewPager  tr.paging td a:hover {
+             color:#993366;
+             text-decoration:underline;
+               }

@@ -1,0 +1,269 @@
+USE [db_SaMI]
+GO
+
+IF  EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK_employment_skills_tbl_users_CreatedBy]') AND parent_object_id = OBJECT_ID(N'[dbo].[tbl_employment_skills]'))
+ALTER TABLE [dbo].[tbl_employment_skills] DROP CONSTRAINT [FK_employment_skills_tbl_users_CreatedBy]
+GO
+
+IF  EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK_employment_skills_tbl_users_UpdatedBy]') AND parent_object_id = OBJECT_ID(N'[dbo].[tbl_employment_skills]'))
+ALTER TABLE [dbo].[tbl_employment_skills] DROP CONSTRAINT [FK_employment_skills_tbl_users_UpdatedBy]
+GO
+
+IF  EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK_tbl_employment_skills_tbl_districts]') AND parent_object_id = OBJECT_ID(N'[dbo].[tbl_employment_skills]'))
+ALTER TABLE [dbo].[tbl_employment_skills] DROP CONSTRAINT [FK_tbl_employment_skills_tbl_districts]
+GO
+
+IF  EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK_tbl_employment_skills_tbl_feed_duration_types]') AND parent_object_id = OBJECT_ID(N'[dbo].[tbl_employment_skills]'))
+ALTER TABLE [dbo].[tbl_employment_skills] DROP CONSTRAINT [FK_tbl_employment_skills_tbl_feed_duration_types]
+GO
+
+IF  EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK_tbl_employment_skills_tbl_know_about_trainings]') AND parent_object_id = OBJECT_ID(N'[dbo].[tbl_employment_skills]'))
+ALTER TABLE [dbo].[tbl_employment_skills] DROP CONSTRAINT [FK_tbl_employment_skills_tbl_know_about_trainings]
+GO
+
+IF  EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK_tbl_employment_skills_tbl_training_reason_types]') AND parent_object_id = OBJECT_ID(N'[dbo].[tbl_employment_skills]'))
+ALTER TABLE [dbo].[tbl_employment_skills] DROP CONSTRAINT [FK_tbl_employment_skills_tbl_training_reason_types]
+GO
+
+IF  EXISTS (SELECT * FROM sys.foreign_keys WHERE object_id = OBJECT_ID(N'[dbo].[FK_tbl_employment_skills_tbl_VDC]') AND parent_object_id = OBJECT_ID(N'[dbo].[tbl_employment_skills]'))
+ALTER TABLE [dbo].[tbl_employment_skills] DROP CONSTRAINT [FK_tbl_employment_skills_tbl_VDC]
+GO
+
+IF  EXISTS (SELECT * FROM dbo.sysobjects WHERE id = OBJECT_ID(N'[DF_tbl_employment_skills_IsUnemployed]') AND type = 'D')
+BEGIN
+ALTER TABLE [dbo].[tbl_employment_skills] DROP CONSTRAINT [DF_tbl_employment_skills_IsUnemployed]
+END
+
+GO
+
+IF  EXISTS (SELECT * FROM dbo.sysobjects WHERE id = OBJECT_ID(N'[DF_tbl_employment_skills_AgricultureIncome]') AND type = 'D')
+BEGIN
+ALTER TABLE [dbo].[tbl_employment_skills] DROP CONSTRAINT [DF_tbl_employment_skills_AgricultureIncome]
+END
+
+GO
+
+IF  EXISTS (SELECT * FROM dbo.sysobjects WHERE id = OBJECT_ID(N'[DF_tbl_employment_skills_WageIncome]') AND type = 'D')
+BEGIN
+ALTER TABLE [dbo].[tbl_employment_skills] DROP CONSTRAINT [DF_tbl_employment_skills_WageIncome]
+END
+
+GO
+
+IF  EXISTS (SELECT * FROM dbo.sysobjects WHERE id = OBJECT_ID(N'[DF_tbl_employment_skills_OtherIncome]') AND type = 'D')
+BEGIN
+ALTER TABLE [dbo].[tbl_employment_skills] DROP CONSTRAINT [DF_tbl_employment_skills_OtherIncome]
+END
+
+GO
+
+IF  EXISTS (SELECT * FROM dbo.sysobjects WHERE id = OBJECT_ID(N'[DF_tbl_employment_skills_FamilyWageIncome]') AND type = 'D')
+BEGIN
+ALTER TABLE [dbo].[tbl_employment_skills] DROP CONSTRAINT [DF_tbl_employment_skills_FamilyWageIncome]
+END
+
+GO
+
+IF  EXISTS (SELECT * FROM dbo.sysobjects WHERE id = OBJECT_ID(N'[DF_tbl_employment_skills_FamilyAgricultureIncome]') AND type = 'D')
+BEGIN
+ALTER TABLE [dbo].[tbl_employment_skills] DROP CONSTRAINT [DF_tbl_employment_skills_FamilyAgricultureIncome]
+END
+
+GO
+
+IF  EXISTS (SELECT * FROM dbo.sysobjects WHERE id = OBJECT_ID(N'[DF_tbl_employment_skills_FamilySalaryIncome]') AND type = 'D')
+BEGIN
+ALTER TABLE [dbo].[tbl_employment_skills] DROP CONSTRAINT [DF_tbl_employment_skills_FamilySalaryIncome]
+END
+
+GO
+
+IF  EXISTS (SELECT * FROM dbo.sysobjects WHERE id = OBJECT_ID(N'[DF_tbl_employment_skills_FamilyForeignIncome]') AND type = 'D')
+BEGIN
+ALTER TABLE [dbo].[tbl_employment_skills] DROP CONSTRAINT [DF_tbl_employment_skills_FamilyForeignIncome]
+END
+
+GO
+
+IF  EXISTS (SELECT * FROM dbo.sysobjects WHERE id = OBJECT_ID(N'[DF_tbl_employment_skills_FamilyBusinessIncome]') AND type = 'D')
+BEGIN
+ALTER TABLE [dbo].[tbl_employment_skills] DROP CONSTRAINT [DF_tbl_employment_skills_FamilyBusinessIncome]
+END
+
+GO
+
+IF  EXISTS (SELECT * FROM dbo.sysobjects WHERE id = OBJECT_ID(N'[DF_tbl_employment_skills_FamilyOtherIncome]') AND type = 'D')
+BEGIN
+ALTER TABLE [dbo].[tbl_employment_skills] DROP CONSTRAINT [DF_tbl_employment_skills_FamilyOtherIncome]
+END
+
+GO
+
+IF  EXISTS (SELECT * FROM dbo.sysobjects WHERE id = OBJECT_ID(N'[DF_tbl_employment_skills_CreatedDate]') AND type = 'D')
+BEGIN
+ALTER TABLE [dbo].[tbl_employment_skills] DROP CONSTRAINT [DF_tbl_employment_skills_CreatedDate]
+END
+
+GO
+
+IF  EXISTS (SELECT * FROM dbo.sysobjects WHERE id = OBJECT_ID(N'[DF_tbl_employment_skills_UpdatedDate]') AND type = 'D')
+BEGIN
+ALTER TABLE [dbo].[tbl_employment_skills] DROP CONSTRAINT [DF_tbl_employment_skills_UpdatedDate]
+END
+
+GO
+
+USE [db_SaMI]
+GO
+
+/****** Object:  Table [dbo].[tbl_employment_skills]    Script Date: 08/17/2014 16:54:36 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[tbl_employment_skills]') AND type in (N'U'))
+DROP TABLE [dbo].[tbl_employment_skills]
+GO
+
+USE [db_SaMI]
+GO
+
+/****** Object:  Table [dbo].[tbl_employment_skills]    Script Date: 08/17/2014 16:54:36 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[tbl_employment_skills](
+	[EmploymentSkillID] [int] IDENTITY(1,1) NOT NULL,
+	[FirstName] [varchar](50) NOT NULL,
+	[MiddleName] [varchar](50) NULL,
+	[LastName] [varchar](50) NOT NULL,
+	[DistrictID] [int] NOT NULL,
+	[VDCID] [int] NOT NULL,
+	[IsUnemployed] [tinyint] NOT NULL,
+	[SelfEmploymentIncome] [int] NULL,
+	[AgricultureIncome] [int] NULL,
+	[WageIncome] [int] NULL,
+	[OtherIncome] [int] NULL,
+	[FamilyWageIncome] [int] NULL,
+	[FamilyAgricultureIncome] [int] NULL,
+	[FamilySalaryIncome] [int] NULL,
+	[FamilyForeignIncome] [int] NULL,
+	[FamilyBusinessIncome] [int] NULL,
+	[FamilyOtherIncome] [int] NULL,
+	[FeedDurationTypeID] [int] NOT NULL,
+	[TrainingSubject] [varchar](100) NOT NULL,
+	[TrainingDistrictID] [int] NOT NULL,
+	[TrainingVDCID] [int] NOT NULL,
+	[TrainingWardNumber] [varchar](20) NOT NULL,
+	[TrainingStratDate] [date] NOT NULL,
+	[TrainingReasonTypeID] [int] NOT NULL,
+	[KnowAboutTrainingID] [int] NOT NULL,
+	[HavePreviousTraining] [tinyint] NOT NULL,
+	[PreTrainingName] [varchar](100) NULL,
+	[PreTrainingYear] [varchar](10) NULL,
+	[PreTrainingInstituteName] [varchar](100) NULL,
+	[PreTrainingPeriod] [varchar](100) NULL,
+	[CreatedBy] [int] NOT NULL,
+	[CreatedDate] [datetime] NOT NULL,
+	[UpdatedBy] [int] NULL,
+	[UpdatedDate] [datetime] NULL,
+	[TrainingRegistrationDate] [date] NOT NULL,
+ CONSTRAINT [PK_tbl_employment_skills] PRIMARY KEY CLUSTERED 
+(
+	[EmploymentSkillID] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+ALTER TABLE [dbo].[tbl_employment_skills]  WITH CHECK ADD  CONSTRAINT [FK_employment_skills_tbl_users_CreatedBy] FOREIGN KEY([CreatedBy])
+REFERENCES [dbo].[tbl_users] ([UserID])
+GO
+
+ALTER TABLE [dbo].[tbl_employment_skills] CHECK CONSTRAINT [FK_employment_skills_tbl_users_CreatedBy]
+GO
+
+ALTER TABLE [dbo].[tbl_employment_skills]  WITH CHECK ADD  CONSTRAINT [FK_employment_skills_tbl_users_UpdatedBy] FOREIGN KEY([UpdatedBy])
+REFERENCES [dbo].[tbl_users] ([UserID])
+GO
+
+ALTER TABLE [dbo].[tbl_employment_skills] CHECK CONSTRAINT [FK_employment_skills_tbl_users_UpdatedBy]
+GO
+
+ALTER TABLE [dbo].[tbl_employment_skills]  WITH CHECK ADD  CONSTRAINT [FK_tbl_employment_skills_tbl_districts] FOREIGN KEY([TrainingDistrictID])
+REFERENCES [dbo].[tbl_districts] ([DistrictID])
+GO
+
+ALTER TABLE [dbo].[tbl_employment_skills] CHECK CONSTRAINT [FK_tbl_employment_skills_tbl_districts]
+GO
+
+ALTER TABLE [dbo].[tbl_employment_skills]  WITH CHECK ADD  CONSTRAINT [FK_tbl_employment_skills_tbl_feed_duration_types] FOREIGN KEY([FeedDurationTypeID])
+REFERENCES [dbo].[tbl_feed_duration_types] ([FeedDurationTypeID])
+GO
+
+ALTER TABLE [dbo].[tbl_employment_skills] CHECK CONSTRAINT [FK_tbl_employment_skills_tbl_feed_duration_types]
+GO
+
+ALTER TABLE [dbo].[tbl_employment_skills]  WITH CHECK ADD  CONSTRAINT [FK_tbl_employment_skills_tbl_know_about_trainings] FOREIGN KEY([KnowAboutTrainingID])
+REFERENCES [dbo].[tbl_know_about_trainings] ([KnowAboutTrainingID])
+GO
+
+ALTER TABLE [dbo].[tbl_employment_skills] CHECK CONSTRAINT [FK_tbl_employment_skills_tbl_know_about_trainings]
+GO
+
+ALTER TABLE [dbo].[tbl_employment_skills]  WITH CHECK ADD  CONSTRAINT [FK_tbl_employment_skills_tbl_training_reason_types] FOREIGN KEY([TrainingReasonTypeID])
+REFERENCES [dbo].[tbl_training_reason_types] ([TrainingReasonTypeID])
+GO
+
+ALTER TABLE [dbo].[tbl_employment_skills] CHECK CONSTRAINT [FK_tbl_employment_skills_tbl_training_reason_types]
+GO
+
+ALTER TABLE [dbo].[tbl_employment_skills]  WITH CHECK ADD  CONSTRAINT [FK_tbl_employment_skills_tbl_VDC] FOREIGN KEY([TrainingVDCID])
+REFERENCES [dbo].[tbl_VDC] ([VDCID])
+GO
+
+ALTER TABLE [dbo].[tbl_employment_skills] CHECK CONSTRAINT [FK_tbl_employment_skills_tbl_VDC]
+GO
+
+ALTER TABLE [dbo].[tbl_employment_skills] ADD  CONSTRAINT [DF_tbl_employment_skills_IsUnemployed]  DEFAULT ((0)) FOR [IsUnemployed]
+GO
+
+ALTER TABLE [dbo].[tbl_employment_skills] ADD  CONSTRAINT [DF_tbl_employment_skills_AgricultureIncome]  DEFAULT ((0)) FOR [AgricultureIncome]
+GO
+
+ALTER TABLE [dbo].[tbl_employment_skills] ADD  CONSTRAINT [DF_tbl_employment_skills_WageIncome]  DEFAULT ((0)) FOR [WageIncome]
+GO
+
+ALTER TABLE [dbo].[tbl_employment_skills] ADD  CONSTRAINT [DF_tbl_employment_skills_OtherIncome]  DEFAULT ((0)) FOR [OtherIncome]
+GO
+
+ALTER TABLE [dbo].[tbl_employment_skills] ADD  CONSTRAINT [DF_tbl_employment_skills_FamilyWageIncome]  DEFAULT ((0)) FOR [FamilyWageIncome]
+GO
+
+ALTER TABLE [dbo].[tbl_employment_skills] ADD  CONSTRAINT [DF_tbl_employment_skills_FamilyAgricultureIncome]  DEFAULT ((0)) FOR [FamilyAgricultureIncome]
+GO
+
+ALTER TABLE [dbo].[tbl_employment_skills] ADD  CONSTRAINT [DF_tbl_employment_skills_FamilySalaryIncome]  DEFAULT ((0)) FOR [FamilySalaryIncome]
+GO
+
+ALTER TABLE [dbo].[tbl_employment_skills] ADD  CONSTRAINT [DF_tbl_employment_skills_FamilyForeignIncome]  DEFAULT ((0)) FOR [FamilyForeignIncome]
+GO
+
+ALTER TABLE [dbo].[tbl_employment_skills] ADD  CONSTRAINT [DF_tbl_employment_skills_FamilyBusinessIncome]  DEFAULT ((0)) FOR [FamilyBusinessIncome]
+GO
+
+ALTER TABLE [dbo].[tbl_employment_skills] ADD  CONSTRAINT [DF_tbl_employment_skills_FamilyOtherIncome]  DEFAULT ((0)) FOR [FamilyOtherIncome]
+GO
+
+ALTER TABLE [dbo].[tbl_employment_skills] ADD  CONSTRAINT [DF_tbl_employment_skills_CreatedDate]  DEFAULT (getdate()) FOR [CreatedDate]
+GO
+
+ALTER TABLE [dbo].[tbl_employment_skills] ADD  CONSTRAINT [DF_tbl_employment_skills_UpdatedDate]  DEFAULT (getdate()) FOR [UpdatedDate]
+GO
+
+

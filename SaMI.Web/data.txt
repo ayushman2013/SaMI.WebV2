@@ -1,0 +1,10 @@
+3/30/2014
+3/30/2014
+Cannot insert the value NULL into column 'Gender', table 'dbSaMI.dbo.tbl_SaMI_profiles'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+Cannot insert the value NULL into column 'Gender', table 'dbSaMI.dbo.tbl_SaMI_profiles'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+3/30/2014
+3/30/2014
+3/30/2014
+3/30/2014

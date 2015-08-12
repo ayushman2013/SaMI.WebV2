@@ -1,0 +1,60 @@
+D:\Users\Suresh\Dot Net\SaMI\SaMI.Utilities\bin\Debug\SaMI.Utilities.dll
+D:\Users\Suresh\Dot Net\SaMI\SaMI.Utilities\bin\Debug\SaMI.Utilities.pdb
+D:\Users\Suresh\Dot Net\SaMI\SaMI.Utilities\obj\Debug\ResolveAssemblyReference.cache
+D:\Users\Suresh\Dot Net\SaMI\SaMI.Utilities\obj\Debug\SaMI.Utilities.dll
+D:\Users\Suresh\Dot Net\SaMI\SaMI.Utilities\obj\Debug\SaMI.Utilities.pdb
+D:\Suresh\Projects\Helvetas.SaMI\SaMI.Utilities\bin\Debug\SaMI.Utilities.dll
+D:\Suresh\Projects\Helvetas.SaMI\SaMI.Utilities\bin\Debug\SaMI.Utilities.pdb
+D:\Suresh\Projects\Helvetas.SaMI\SaMI.Utilities\obj\Debug\SaMI.Utilities.dll
+D:\Suresh\Projects\Helvetas.SaMI\SaMI.Utilities\obj\Debug\SaMI.Utilities.pdb
+D:\Suresh\Projects\Helvetas.SaMI\SaMI.Utilities\obj\Debug\SaMI.Utilities.csprojResolveAssemblyReference.cache
+J:\Helvetas.SaMI\SaMI.Utilities\bin\Debug\SaMI.Utilities.dll
+J:\Helvetas.SaMI\SaMI.Utilities\bin\Debug\SaMI.Utilities.pdb
+J:\Helvetas.SaMI\SaMI.Utilities\obj\Debug\SaMI.Utilities.csprojResolveAssemblyReference.cache
+J:\Helvetas.SaMI\SaMI.Utilities\obj\Debug\SaMI.Utilities.dll
+J:\Helvetas.SaMI\SaMI.Utilities\obj\Debug\SaMI.Utilities.pdb
+D:\Documents\Helvetas.SaMI\SaMI.Utilities\bin\Debug\SaMI.Utilities.dll
+D:\Documents\Helvetas.SaMI\SaMI.Utilities\bin\Debug\SaMI.Utilities.pdb
+D:\Documents\Helvetas.SaMI\SaMI.Utilities\obj\Debug\SaMI.Utilities.csprojResolveAssemblyReference.cache
+D:\Documents\Helvetas.SaMI\SaMI.Utilities\obj\Debug\SaMI.Utilities.dll
+D:\Documents\Helvetas.SaMI\SaMI.Utilities\obj\Debug\SaMI.Utilities.pdb
+D:\Helvetas.SaMI\SaMI.Utilities\bin\Debug\SaMI.Utilities.dll
+D:\Helvetas.SaMI\SaMI.Utilities\bin\Debug\SaMI.Utilities.pdb
+D:\Helvetas.SaMI\SaMI.Utilities\obj\Debug\SaMI.Utilities.dll
+D:\Helvetas.SaMI\SaMI.Utilities\obj\Debug\SaMI.Utilities.pdb
+D:\Documents\REBINA\NG-Outsourcing\NG-Outsourcing Projects\Helvetas.SaMI\SaMI.Utilities\bin\Debug\SaMI.Utilities.dll
+D:\Documents\REBINA\NG-Outsourcing\NG-Outsourcing Projects\Helvetas.SaMI\SaMI.Utilities\bin\Debug\SaMI.Utilities.pdb
+D:\Documents\REBINA\NG-Outsourcing\NG-Outsourcing Projects\Helvetas.SaMI\SaMI.Utilities\obj\Debug\SaMI.Utilities.dll
+D:\Documents\REBINA\NG-Outsourcing\NG-Outsourcing Projects\Helvetas.SaMI\SaMI.Utilities\obj\Debug\SaMI.Utilities.pdb
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.Utilities\bin\Debug\SaMI.Utilities.dll
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.Utilities\bin\Debug\SaMI.Utilities.pdb
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.Utilities\obj\Debug\SaMI.Utilities.dll
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.Utilities\obj\Debug\SaMI.Utilities.pdb
+C:\Users\Sunil Bahadur Bist\Desktop\Sami We and API\SaMI.Utilities\bin\Debug\SaMI.Utilities.dll
+C:\Users\Sunil Bahadur Bist\Desktop\Sami We and API\SaMI.Utilities\bin\Debug\SaMI.Utilities.pdb
+C:\Users\Sunil Bahadur Bist\Desktop\Sami We and API\SaMI.Utilities\obj\Debug\SaMI.Utilities.csprojResolveAssemblyReference.cache
+C:\Users\Sunil Bahadur Bist\Desktop\Sami We and API\SaMI.Utilities\obj\Debug\SaMI.Utilities.dll
+C:\Users\Sunil Bahadur Bist\Desktop\Sami We and API\SaMI.Utilities\obj\Debug\SaMI.Utilities.pdb
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.Utilities\bin\Debug\SaMI.Utilities.dll
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.Utilities\bin\Debug\SaMI.Utilities.pdb
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.Utilities\obj\Debug\SaMI.Utilities.csprojResolveAssemblyReference.cache
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.Utilities\obj\Debug\SaMI.Utilities.dll
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.Utilities\obj\Debug\SaMI.Utilities.pdb
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.Utilities\bin\Debug\SaMI.Utilities.dll
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.Utilities\bin\Debug\SaMI.Utilities.pdb
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.Utilities\obj\Debug\SaMI.Utilities.csprojResolveAssemblyReference.cache
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.Utilities\obj\Debug\SaMI.Utilities.dll
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.Utilities\obj\Debug\SaMI.Utilities.pdb
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.Utilities\bin\Debug\SaMI.Utilities.dll
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.Utilities\bin\Debug\SaMI.Utilities.pdb
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.Utilities\obj\Debug\SaMI.Utilities.csprojResolveAssemblyReference.cache
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.Utilities\obj\Debug\SaMI.Utilities.dll
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.Utilities\obj\Debug\SaMI.Utilities.pdb
+D:\Documents\REBINA\SVN\SaMi.Web\trunk\SaMI.Utilities\bin\Debug\SaMI.Utilities.dll
+D:\Documents\REBINA\SVN\SaMi.Web\trunk\SaMI.Utilities\bin\Debug\SaMI.Utilities.pdb
+D:\Documents\REBINA\SVN\SaMi.Web\trunk\SaMI.Utilities\obj\Debug\SaMI.Utilities.dll
+D:\Documents\REBINA\SVN\SaMi.Web\trunk\SaMI.Utilities\obj\Debug\SaMI.Utilities.pdb
+C:\Users\bina\Documents\Visual Studio 2012\Projects\SaMI.WebV2\SaMI.Utilities\bin\Debug\SaMI.Utilities.dll
+C:\Users\bina\Documents\Visual Studio 2012\Projects\SaMI.WebV2\SaMI.Utilities\bin\Debug\SaMI.Utilities.pdb
+C:\Users\bina\Documents\Visual Studio 2012\Projects\SaMI.WebV2\SaMI.Utilities\obj\Debug\SaMI.Utilities.dll
+C:\Users\bina\Documents\Visual Studio 2012\Projects\SaMI.WebV2\SaMI.Utilities\obj\Debug\SaMI.Utilities.pdb

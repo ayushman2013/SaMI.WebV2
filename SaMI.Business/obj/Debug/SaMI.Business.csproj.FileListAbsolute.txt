@@ -1,0 +1,208 @@
+D:\Users\Suresh\Dot Net\SaMI\SaMI.Business\obj\Debug\ResolveAssemblyReference.cache
+D:\Users\Suresh\Dot Net\SaMI\SaMI.Business\bin\Debug\SaMI.Business.dll
+D:\Users\Suresh\Dot Net\SaMI\SaMI.Business\bin\Debug\SaMI.Business.pdb
+D:\Users\Suresh\Dot Net\SaMI\SaMI.Business\bin\Debug\SaMI.DataAccess.dll
+D:\Users\Suresh\Dot Net\SaMI\SaMI.Business\bin\Debug\SaMI.DTO.dll
+D:\Users\Suresh\Dot Net\SaMI\SaMI.Business\bin\Debug\SaMI.Utilities.dll
+D:\Users\Suresh\Dot Net\SaMI\SaMI.Business\bin\Debug\SaMI.DBTools.dll
+D:\Users\Suresh\Dot Net\SaMI\SaMI.Business\bin\Debug\SaMI.DataAccess.pdb
+D:\Users\Suresh\Dot Net\SaMI\SaMI.Business\bin\Debug\SaMI.DTO.pdb
+D:\Users\Suresh\Dot Net\SaMI\SaMI.Business\bin\Debug\SaMI.Utilities.pdb
+D:\Users\Suresh\Dot Net\SaMI\SaMI.Business\bin\Debug\SaMI.DBTools.pdb
+D:\Users\Suresh\Dot Net\SaMI\SaMI.Business\obj\Debug\SaMI.Business.dll
+D:\Users\Suresh\Dot Net\SaMI\SaMI.Business\obj\Debug\SaMI.Business.pdb
+D:\Suresh\Projects\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.Business.dll
+D:\Suresh\Projects\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.Business.pdb
+D:\Suresh\Projects\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.DataAccess.dll
+D:\Suresh\Projects\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.DTO.dll
+D:\Suresh\Projects\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.Utilities.dll
+D:\Suresh\Projects\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.DBTools.dll
+D:\Suresh\Projects\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.DataAccess.pdb
+D:\Suresh\Projects\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.DTO.pdb
+D:\Suresh\Projects\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.Utilities.pdb
+D:\Suresh\Projects\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.DBTools.pdb
+D:\Suresh\Projects\Helvetas.SaMI\SaMI.Business\obj\Debug\SaMI.Business.csprojResolveAssemblyReference.cache
+D:\Suresh\Projects\Helvetas.SaMI\SaMI.Business\obj\Debug\SaMI.Business.dll
+D:\Suresh\Projects\Helvetas.SaMI\SaMI.Business\obj\Debug\SaMI.Business.pdb
+J:\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.Business.dll
+J:\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.Business.pdb
+J:\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.DataAccess.dll
+J:\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.DTO.dll
+J:\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.Utilities.dll
+J:\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.DBTools.dll
+J:\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.DataAccess.pdb
+J:\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.DTO.pdb
+J:\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.Utilities.pdb
+J:\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.DBTools.pdb
+J:\Helvetas.SaMI\SaMI.Business\obj\Debug\SaMI.Business.csprojResolveAssemblyReference.cache
+J:\Helvetas.SaMI\SaMI.Business\obj\Debug\SaMI.Business.dll
+J:\Helvetas.SaMI\SaMI.Business\obj\Debug\SaMI.Business.pdb
+D:\Documents\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.Business.dll
+D:\Documents\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.Business.pdb
+D:\Documents\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.DataAccess.dll
+D:\Documents\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.DTO.dll
+D:\Documents\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.Utilities.dll
+D:\Documents\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.DBTools.dll
+D:\Documents\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.DataAccess.pdb
+D:\Documents\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.DTO.pdb
+D:\Documents\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.Utilities.pdb
+D:\Documents\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.DBTools.pdb
+D:\Documents\Helvetas.SaMI\SaMI.Business\obj\Debug\SaMI.Business.csprojResolveAssemblyReference.cache
+D:\Documents\Helvetas.SaMI\SaMI.Business\obj\Debug\SaMI.Business.dll
+D:\Documents\Helvetas.SaMI\SaMI.Business\obj\Debug\SaMI.Business.pdb
+D:\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.Business.dll
+D:\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.Business.pdb
+D:\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.DataAccess.dll
+D:\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.DTO.dll
+D:\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.Utilities.dll
+D:\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.DBTools.dll
+D:\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.DataAccess.pdb
+D:\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.DTO.pdb
+D:\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.Utilities.pdb
+D:\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.DBTools.pdb
+D:\Helvetas.SaMI\SaMI.Business\obj\Debug\SaMI.Business.csprojResolveAssemblyReference.cache
+D:\Helvetas.SaMI\SaMI.Business\obj\Debug\SaMI.Business.dll
+D:\Helvetas.SaMI\SaMI.Business\obj\Debug\SaMI.Business.pdb
+D:\Documents\REBINA\NG-Outsourcing\NG-Outsourcing Projects\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.Business.dll
+D:\Documents\REBINA\NG-Outsourcing\NG-Outsourcing Projects\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.Business.pdb
+D:\Documents\REBINA\NG-Outsourcing\NG-Outsourcing Projects\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.DataAccess.dll
+D:\Documents\REBINA\NG-Outsourcing\NG-Outsourcing Projects\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.DTO.dll
+D:\Documents\REBINA\NG-Outsourcing\NG-Outsourcing Projects\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.Utilities.dll
+D:\Documents\REBINA\NG-Outsourcing\NG-Outsourcing Projects\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.DBTools.dll
+D:\Documents\REBINA\NG-Outsourcing\NG-Outsourcing Projects\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.DataAccess.pdb
+D:\Documents\REBINA\NG-Outsourcing\NG-Outsourcing Projects\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.DTO.pdb
+D:\Documents\REBINA\NG-Outsourcing\NG-Outsourcing Projects\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.Utilities.pdb
+D:\Documents\REBINA\NG-Outsourcing\NG-Outsourcing Projects\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.DBTools.pdb
+D:\Documents\REBINA\NG-Outsourcing\NG-Outsourcing Projects\Helvetas.SaMI\SaMI.Business\obj\Debug\SaMI.Business.csprojResolveAssemblyReference.cache
+D:\Documents\REBINA\NG-Outsourcing\NG-Outsourcing Projects\Helvetas.SaMI\SaMI.Business\obj\Debug\SaMI.Business.dll
+D:\Documents\REBINA\NG-Outsourcing\NG-Outsourcing Projects\Helvetas.SaMI\SaMI.Business\obj\Debug\SaMI.Business.pdb
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.Business.dll
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.Business.pdb
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.DataAccess.dll
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.DTO.dll
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.Utilities.dll
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.DBTools.dll
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.DataAccess.pdb
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.DTO.pdb
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.Utilities.pdb
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.DBTools.pdb
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.Business\obj\Debug\SaMI.Business.csprojResolveAssemblyReference.cache
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.Business\obj\Debug\SaMI.Business.dll
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.Business\obj\Debug\SaMI.Business.pdb
+D:\Soft\Projects\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.Business.dll
+D:\Soft\Projects\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.Business.pdb
+D:\Soft\Projects\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.DataAccess.dll
+D:\Soft\Projects\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.DTO.dll
+D:\Soft\Projects\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.Utilities.dll
+D:\Soft\Projects\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.DBTools.dll
+D:\Soft\Projects\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.DataAccess.pdb
+D:\Soft\Projects\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.DTO.pdb
+D:\Soft\Projects\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.Utilities.pdb
+D:\Soft\Projects\Helvetas.SaMI\SaMI.Business\bin\Debug\SaMI.DBTools.pdb
+D:\Soft\Projects\Helvetas.SaMI\SaMI.Business\obj\Debug\SaMI.Business.csprojResolveAssemblyReference.cache
+D:\Soft\Projects\Helvetas.SaMI\SaMI.Business\obj\Debug\SaMI.Business.dll
+D:\Soft\Projects\Helvetas.SaMI\SaMI.Business\obj\Debug\SaMI.Business.pdb
+C:\Users\Sunil Bahadur Bist\Desktop\Sami We and API\SaMI.Business\bin\Debug\SaMI.Business.dll
+C:\Users\Sunil Bahadur Bist\Desktop\Sami We and API\SaMI.Business\bin\Debug\SaMI.Business.pdb
+C:\Users\Sunil Bahadur Bist\Desktop\Sami We and API\SaMI.Business\bin\Debug\SaMI.DataAccess.dll
+C:\Users\Sunil Bahadur Bist\Desktop\Sami We and API\SaMI.Business\bin\Debug\SaMI.DTO.dll
+C:\Users\Sunil Bahadur Bist\Desktop\Sami We and API\SaMI.Business\bin\Debug\SaMI.Utilities.dll
+C:\Users\Sunil Bahadur Bist\Desktop\Sami We and API\SaMI.Business\bin\Debug\SaMI.DBTools.dll
+C:\Users\Sunil Bahadur Bist\Desktop\Sami We and API\SaMI.Business\bin\Debug\SaMI.DataAccess.pdb
+C:\Users\Sunil Bahadur Bist\Desktop\Sami We and API\SaMI.Business\bin\Debug\SaMI.DTO.pdb
+C:\Users\Sunil Bahadur Bist\Desktop\Sami We and API\SaMI.Business\bin\Debug\SaMI.Utilities.pdb
+C:\Users\Sunil Bahadur Bist\Desktop\Sami We and API\SaMI.Business\bin\Debug\SaMI.DBTools.pdb
+C:\Users\Sunil Bahadur Bist\Desktop\Sami We and API\SaMI.Business\obj\Debug\SaMI.Business.csprojResolveAssemblyReference.cache
+C:\Users\Sunil Bahadur Bist\Desktop\Sami We and API\SaMI.Business\obj\Debug\SaMI.Business.dll
+C:\Users\Sunil Bahadur Bist\Desktop\Sami We and API\SaMI.Business\obj\Debug\SaMI.Business.pdb
+E:\Projects\SaMI.Web\SaMI.Business\bin\Debug\SaMI.Business.dll
+E:\Projects\SaMI.Web\SaMI.Business\bin\Debug\SaMI.Business.pdb
+E:\Projects\SaMI.Web\SaMI.Business\bin\Debug\SaMI.DataAccess.dll
+E:\Projects\SaMI.Web\SaMI.Business\bin\Debug\SaMI.DTO.dll
+E:\Projects\SaMI.Web\SaMI.Business\bin\Debug\SaMI.Utilities.dll
+E:\Projects\SaMI.Web\SaMI.Business\bin\Debug\SaMI.DBTools.dll
+E:\Projects\SaMI.Web\SaMI.Business\bin\Debug\SaMI.DataAccess.pdb
+E:\Projects\SaMI.Web\SaMI.Business\bin\Debug\SaMI.DTO.pdb
+E:\Projects\SaMI.Web\SaMI.Business\bin\Debug\SaMI.Utilities.pdb
+E:\Projects\SaMI.Web\SaMI.Business\bin\Debug\SaMI.DBTools.pdb
+E:\Projects\SaMI.Web\SaMI.Business\obj\Debug\SaMI.Business.csprojResolveAssemblyReference.cache
+E:\Projects\SaMI.Web\SaMI.Business\obj\Debug\SaMI.Business.dll
+E:\Projects\SaMI.Web\SaMI.Business\obj\Debug\SaMI.Business.pdb
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.Business\bin\Debug\SaMI.Business.dll
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.Business\bin\Debug\SaMI.Business.pdb
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.Business\bin\Debug\SaMI.DataAccess.dll
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.Business\bin\Debug\SaMI.DTO.dll
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.Business\bin\Debug\SaMI.Utilities.dll
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.Business\bin\Debug\SaMI.DBTools.dll
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.Business\bin\Debug\SaMI.DataAccess.pdb
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.Business\bin\Debug\SaMI.DTO.pdb
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.Business\bin\Debug\SaMI.Utilities.pdb
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.Business\bin\Debug\SaMI.DBTools.pdb
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.Business\obj\Debug\SaMI.Business.csprojResolveAssemblyReference.cache
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.Business\obj\Debug\SaMI.Business.dll
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.Business\obj\Debug\SaMI.Business.pdb
+E:\Projects\MyComputer\SaMI.Web\SaMI.Business\bin\Debug\SaMI.Business.dll
+E:\Projects\MyComputer\SaMI.Web\SaMI.Business\bin\Debug\SaMI.Business.pdb
+E:\Projects\MyComputer\SaMI.Web\SaMI.Business\bin\Debug\SaMI.DataAccess.dll
+E:\Projects\MyComputer\SaMI.Web\SaMI.Business\bin\Debug\SaMI.DTO.dll
+E:\Projects\MyComputer\SaMI.Web\SaMI.Business\bin\Debug\SaMI.Utilities.dll
+E:\Projects\MyComputer\SaMI.Web\SaMI.Business\bin\Debug\SaMI.DBTools.dll
+E:\Projects\MyComputer\SaMI.Web\SaMI.Business\bin\Debug\SaMI.DataAccess.pdb
+E:\Projects\MyComputer\SaMI.Web\SaMI.Business\bin\Debug\SaMI.DTO.pdb
+E:\Projects\MyComputer\SaMI.Web\SaMI.Business\bin\Debug\SaMI.Utilities.pdb
+E:\Projects\MyComputer\SaMI.Web\SaMI.Business\bin\Debug\SaMI.DBTools.pdb
+E:\Projects\MyComputer\SaMI.Web\SaMI.Business\obj\Debug\SaMI.Business.csprojResolveAssemblyReference.cache
+E:\Projects\MyComputer\SaMI.Web\SaMI.Business\obj\Debug\SaMI.Business.dll
+E:\Projects\MyComputer\SaMI.Web\SaMI.Business\obj\Debug\SaMI.Business.pdb
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.Business\bin\Debug\SaMI.Business.dll
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.Business\bin\Debug\SaMI.Business.pdb
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.Business\bin\Debug\SaMI.DataAccess.dll
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.Business\bin\Debug\SaMI.DTO.dll
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.Business\bin\Debug\SaMI.Utilities.dll
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.Business\bin\Debug\SaMI.DBTools.dll
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.Business\bin\Debug\SaMI.DataAccess.pdb
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.Business\bin\Debug\SaMI.DTO.pdb
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.Business\bin\Debug\SaMI.Utilities.pdb
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.Business\bin\Debug\SaMI.DBTools.pdb
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.Business\obj\Debug\SaMI.Business.csprojResolveAssemblyReference.cache
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.Business\obj\Debug\SaMI.Business.dll
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.Business\obj\Debug\SaMI.Business.pdb
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.Business\bin\Debug\SaMI.Business.dll
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.Business\bin\Debug\SaMI.Business.pdb
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.Business\bin\Debug\SaMI.DataAccess.dll
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.Business\bin\Debug\SaMI.DTO.dll
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.Business\bin\Debug\SaMI.Utilities.dll
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.Business\bin\Debug\SaMI.DBTools.dll
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.Business\bin\Debug\SaMI.DataAccess.pdb
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.Business\bin\Debug\SaMI.DTO.pdb
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.Business\bin\Debug\SaMI.Utilities.pdb
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.Business\bin\Debug\SaMI.DBTools.pdb
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.Business\obj\Debug\SaMI.Business.csprojResolveAssemblyReference.cache
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.Business\obj\Debug\SaMI.Business.dll
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.Business\obj\Debug\SaMI.Business.pdb
+D:\Documents\REBINA\SVN\SaMi.Web\trunk\SaMI.Business\bin\Debug\SaMI.Business.dll
+D:\Documents\REBINA\SVN\SaMi.Web\trunk\SaMI.Business\bin\Debug\SaMI.Business.pdb
+D:\Documents\REBINA\SVN\SaMi.Web\trunk\SaMI.Business\bin\Debug\SaMI.DataAccess.dll
+D:\Documents\REBINA\SVN\SaMi.Web\trunk\SaMI.Business\bin\Debug\SaMI.DTO.dll
+D:\Documents\REBINA\SVN\SaMi.Web\trunk\SaMI.Business\bin\Debug\SaMI.Utilities.dll
+D:\Documents\REBINA\SVN\SaMi.Web\trunk\SaMI.Business\bin\Debug\SaMI.DBTools.dll
+D:\Documents\REBINA\SVN\SaMi.Web\trunk\SaMI.Business\bin\Debug\SaMI.DataAccess.pdb
+D:\Documents\REBINA\SVN\SaMi.Web\trunk\SaMI.Business\bin\Debug\SaMI.DTO.pdb
+D:\Documents\REBINA\SVN\SaMi.Web\trunk\SaMI.Business\bin\Debug\SaMI.Utilities.pdb
+D:\Documents\REBINA\SVN\SaMi.Web\trunk\SaMI.Business\bin\Debug\SaMI.DBTools.pdb
+D:\Documents\REBINA\SVN\SaMi.Web\trunk\SaMI.Business\obj\Debug\SaMI.Business.csprojResolveAssemblyReference.cache
+D:\Documents\REBINA\SVN\SaMi.Web\trunk\SaMI.Business\obj\Debug\SaMI.Business.dll
+D:\Documents\REBINA\SVN\SaMi.Web\trunk\SaMI.Business\obj\Debug\SaMI.Business.pdb
+C:\Users\bina\Documents\Visual Studio 2012\Projects\SaMI.WebV2\SaMI.Business\bin\Debug\SaMI.Business.dll
+C:\Users\bina\Documents\Visual Studio 2012\Projects\SaMI.WebV2\SaMI.Business\bin\Debug\SaMI.Business.pdb
+C:\Users\bina\Documents\Visual Studio 2012\Projects\SaMI.WebV2\SaMI.Business\bin\Debug\SaMI.DataAccess.dll
+C:\Users\bina\Documents\Visual Studio 2012\Projects\SaMI.WebV2\SaMI.Business\bin\Debug\SaMI.DTO.dll
+C:\Users\bina\Documents\Visual Studio 2012\Projects\SaMI.WebV2\SaMI.Business\bin\Debug\SaMI.Utilities.dll
+C:\Users\bina\Documents\Visual Studio 2012\Projects\SaMI.WebV2\SaMI.Business\bin\Debug\SaMI.DBTools.dll
+C:\Users\bina\Documents\Visual Studio 2012\Projects\SaMI.WebV2\SaMI.Business\bin\Debug\SaMI.DataAccess.pdb
+C:\Users\bina\Documents\Visual Studio 2012\Projects\SaMI.WebV2\SaMI.Business\bin\Debug\SaMI.DTO.pdb
+C:\Users\bina\Documents\Visual Studio 2012\Projects\SaMI.WebV2\SaMI.Business\bin\Debug\SaMI.Utilities.pdb
+C:\Users\bina\Documents\Visual Studio 2012\Projects\SaMI.WebV2\SaMI.Business\bin\Debug\SaMI.DBTools.pdb
+C:\Users\bina\Documents\Visual Studio 2012\Projects\SaMI.WebV2\SaMI.Business\obj\Debug\SaMI.Business.csprojResolveAssemblyReference.cache
+C:\Users\bina\Documents\Visual Studio 2012\Projects\SaMI.WebV2\SaMI.Business\obj\Debug\SaMI.Business.dll
+C:\Users\bina\Documents\Visual Studio 2012\Projects\SaMI.WebV2\SaMI.Business\obj\Debug\SaMI.Business.pdb

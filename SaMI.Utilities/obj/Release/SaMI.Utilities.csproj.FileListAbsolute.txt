@@ -1,0 +1,20 @@
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.Utilities\bin\Release\SaMI.Utilities.dll
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.Utilities\bin\Release\SaMI.Utilities.pdb
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.Utilities\obj\Release\SaMI.Utilities.csprojResolveAssemblyReference.cache
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.Utilities\obj\Release\SaMI.Utilities.dll
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.Utilities\obj\Release\SaMI.Utilities.pdb
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.Utilities\bin\Release\SaMI.Utilities.dll
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.Utilities\bin\Release\SaMI.Utilities.pdb
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.Utilities\obj\Release\SaMI.Utilities.csprojResolveAssemblyReference.cache
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.Utilities\obj\Release\SaMI.Utilities.dll
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.Utilities\obj\Release\SaMI.Utilities.pdb
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.Utilities\bin\Release\SaMI.Utilities.dll
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.Utilities\bin\Release\SaMI.Utilities.pdb
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.Utilities\obj\Release\SaMI.Utilities.csprojResolveAssemblyReference.cache
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.Utilities\obj\Release\SaMI.Utilities.dll
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.Utilities\obj\Release\SaMI.Utilities.pdb
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.Utilities\bin\Release\SaMI.Utilities.dll
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.Utilities\bin\Release\SaMI.Utilities.pdb
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.Utilities\obj\Release\SaMI.Utilities.csprojResolveAssemblyReference.cache
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.Utilities\obj\Release\SaMI.Utilities.dll
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.Utilities\obj\Release\SaMI.Utilities.pdb

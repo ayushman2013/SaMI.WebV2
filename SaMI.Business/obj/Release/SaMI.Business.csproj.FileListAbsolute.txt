@@ -1,0 +1,65 @@
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.Business\bin\Release\SaMI.Business.dll
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.Business\bin\Release\SaMI.Business.pdb
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.Business\bin\Release\SaMI.DataAccess.dll
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.Business\bin\Release\SaMI.DTO.dll
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.Business\bin\Release\SaMI.Utilities.dll
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.Business\bin\Release\SaMI.DBTools.dll
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.Business\bin\Release\SaMI.DataAccess.pdb
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.Business\bin\Release\SaMI.DTO.pdb
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.Business\bin\Release\SaMI.Utilities.pdb
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.Business\bin\Release\SaMI.DBTools.pdb
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.Business\obj\Release\SaMI.Business.csprojResolveAssemblyReference.cache
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.Business\obj\Release\SaMI.Business.dll
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.Business\obj\Release\SaMI.Business.pdb
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.Business\bin\Release\SaMI.Business.dll
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.Business\bin\Release\SaMI.Business.pdb
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.Business\bin\Release\SaMI.DataAccess.dll
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.Business\bin\Release\SaMI.DTO.dll
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.Business\bin\Release\SaMI.Utilities.dll
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.Business\bin\Release\SaMI.DBTools.dll
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.Business\bin\Release\SaMI.DataAccess.pdb
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.Business\bin\Release\SaMI.DTO.pdb
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.Business\bin\Release\SaMI.Utilities.pdb
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.Business\bin\Release\SaMI.DBTools.pdb
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.Business\obj\Release\SaMI.Business.csprojResolveAssemblyReference.cache
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.Business\obj\Release\SaMI.Business.dll
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.Business\obj\Release\SaMI.Business.pdb
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.Business\bin\Release\SaMI.Business.dll
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.Business\bin\Release\SaMI.Business.pdb
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.Business\bin\Release\SaMI.DataAccess.dll
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.Business\bin\Release\SaMI.DTO.dll
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.Business\bin\Release\SaMI.Utilities.dll
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.Business\bin\Release\SaMI.DBTools.dll
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.Business\bin\Release\SaMI.DataAccess.pdb
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.Business\bin\Release\SaMI.DTO.pdb
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.Business\bin\Release\SaMI.Utilities.pdb
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.Business\bin\Release\SaMI.DBTools.pdb
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.Business\obj\Release\SaMI.Business.csprojResolveAssemblyReference.cache
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.Business\obj\Release\SaMI.Business.dll
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.Business\obj\Release\SaMI.Business.pdb
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.Business\bin\Release\SaMI.Business.dll
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.Business\bin\Release\SaMI.Business.pdb
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.Business\bin\Release\SaMI.DataAccess.dll
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.Business\bin\Release\SaMI.DTO.dll
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.Business\bin\Release\SaMI.Utilities.dll
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.Business\bin\Release\SaMI.DBTools.dll
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.Business\bin\Release\SaMI.DataAccess.pdb
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.Business\bin\Release\SaMI.DTO.pdb
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.Business\bin\Release\SaMI.Utilities.pdb
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.Business\bin\Release\SaMI.DBTools.pdb
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.Business\obj\Release\SaMI.Business.csprojResolveAssemblyReference.cache
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.Business\obj\Release\SaMI.Business.dll
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.Business\obj\Release\SaMI.Business.pdb
+D:\Documents\REBINA\SVN\SaMi.Web\trunk\SaMI.Business\bin\Release\SaMI.Business.dll
+D:\Documents\REBINA\SVN\SaMi.Web\trunk\SaMI.Business\bin\Release\SaMI.Business.pdb
+D:\Documents\REBINA\SVN\SaMi.Web\trunk\SaMI.Business\bin\Release\SaMI.DataAccess.dll
+D:\Documents\REBINA\SVN\SaMi.Web\trunk\SaMI.Business\bin\Release\SaMI.DTO.dll
+D:\Documents\REBINA\SVN\SaMi.Web\trunk\SaMI.Business\bin\Release\SaMI.Utilities.dll
+D:\Documents\REBINA\SVN\SaMi.Web\trunk\SaMI.Business\bin\Release\SaMI.DBTools.dll
+D:\Documents\REBINA\SVN\SaMi.Web\trunk\SaMI.Business\bin\Release\SaMI.DataAccess.pdb
+D:\Documents\REBINA\SVN\SaMi.Web\trunk\SaMI.Business\bin\Release\SaMI.DTO.pdb
+D:\Documents\REBINA\SVN\SaMi.Web\trunk\SaMI.Business\bin\Release\SaMI.Utilities.pdb
+D:\Documents\REBINA\SVN\SaMi.Web\trunk\SaMI.Business\bin\Release\SaMI.DBTools.pdb
+D:\Documents\REBINA\SVN\SaMi.Web\trunk\SaMI.Business\obj\Release\SaMI.Business.csprojResolveAssemblyReference.cache
+D:\Documents\REBINA\SVN\SaMi.Web\trunk\SaMI.Business\obj\Release\SaMI.Business.dll
+D:\Documents\REBINA\SVN\SaMi.Web\trunk\SaMI.Business\obj\Release\SaMI.Business.pdb

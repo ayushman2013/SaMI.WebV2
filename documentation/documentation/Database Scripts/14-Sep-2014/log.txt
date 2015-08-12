@@ -1,0 +1,6 @@
+tbl_foreign_employment_status
+- PotentialAndNonPotentialMigrant - tinyint - allow null - default value 0 - added
+
+
+tbl_previous_fe_experience
+status - tinyint - 0 - added

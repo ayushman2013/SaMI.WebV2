@@ -1,0 +1,1498 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FAFDE17D-2134-4B94-815D-A5B734F41AC7}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SaMI.Web</RootNamespace>
+    <AssemblyName>SaMI.Web</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ClosedXML, Version=0.69.1.0, Culture=neutral, PublicKeyToken=fd1eb21b62ae805b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\ClosedXML.dll</HintPath>
+    </Reference>
+    <Reference Include="DocumentFormat.OpenXml, Version=2.0.5022.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\DocumentFormat.OpenXml.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus, Version=3.1.3.0, Culture=neutral, PublicKeyToken=ea159fdaa78159a1, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>assets\EPPlus\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="itextsharp, Version=4.1.2.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\itextsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="MagicAjax, Version=0.3.0.0, Culture=neutral, PublicKeyToken=bf4053b35db106f3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\MagicAjax.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.6.0.6\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Formatting, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.2\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Http, Version=5.2.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.2\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=5.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.0.0\lib\net45\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="assets\css\bootstrap-theme.min.css" />
+    <Content Include="assets\css\bootstrap.min.css" />
+    <Content Include="assets\css\gridview-pagination.css" />
+    <Content Include="assets\css\images\animated-overlay.gif" />
+    <Content Include="assets\css\images\calendar.png" />
+    <Content Include="assets\css\images\ui-bg_diagonals-thick_18_b81900_40x40.png" />
+    <Content Include="assets\css\images\ui-bg_diagonals-thick_20_666666_40x40.png" />
+    <Content Include="assets\css\images\ui-bg_flat_10_000000_40x100.png" />
+    <Content Include="assets\css\images\ui-bg_glass_100_f6f6f6_1x400.png" />
+    <Content Include="assets\css\images\ui-bg_glass_100_fdf5ce_1x400.png" />
+    <Content Include="assets\css\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="assets\css\images\ui-bg_gloss-wave_35_f6a828_500x100.png" />
+    <Content Include="assets\css\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+    <Content Include="assets\css\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+    <Content Include="assets\css\images\ui-icons_222222_256x240.png" />
+    <Content Include="assets\css\images\ui-icons_228ef1_256x240.png" />
+    <Content Include="assets\css\images\ui-icons_ef8c08_256x240.png" />
+    <Content Include="assets\css\images\ui-icons_ffd27a_256x240.png" />
+    <Content Include="assets\css\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="assets\css\jquery-ui-1.10.3.custom.min.css" />
+    <Content Include="assets\css\jquery-ui.css" />
+    <Content Include="assets\css\layout.css" />
+    <Content Include="assets\EPPlus\ClosedXML.dll" />
+    <Content Include="assets\EPPlus\EPPlus.dll" />
+    <Content Include="assets\EPPlus\EPPlus.xml" />
+    <Content Include="assets\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="assets\images\ndp_bg_wave.png" />
+    <Content Include="assets\images\ndp_buttons.png" />
+    <Content Include="assets\images\ndp_date_bg.png" />
+    <Content Include="assets\images\next.png" />
+    <Content Include="assets\images\previous.png" />
+    <Content Include="assets\images\snext.png" />
+    <Content Include="assets\images\sprevious.png" />
+    <Content Include="assets\js\bootstrap.js" />
+    <Content Include="assets\js\bootstrap.min.js" />
+    <Content Include="assets\js\jquery-1.8.2.js" />
+    <Content Include="assets\js\jquery-1.9.0.js" />
+    <Content Include="assets\js\jquery-ui.js" />
+    <Content Include="assets\js\jquery.form.js" />
+    <Content Include="assets\js\jquery.js" />
+    <Content Include="assets\js\jquery.validate.min.js" />
+    <Content Include="assets\js\JScriptLoad.js" />
+    <Content Include="CaseDocumentation\Add.aspx" />
+    <Content Include="CaseDocumentation\controls\footer.ascx" />
+    <Content Include="CaseDocumentation\controls\header.ascx" />
+    <Content Include="CaseDocumentation\Default.aspx" />
+    <Content Include="CaseDocumentation\Edit.aspx" />
+    <Content Include="CaseDocumentation\Index.aspx" />
+    <Content Include="CaseDocumentation\js\ClickScripts.js" />
+    <Content Include="CaseDocumentation\js\JScript.js" />
+    <Content Include="CaseDocumentation\RecruitmentList.aspx" />
+    <Content Include="CaseDocumentation\View.aspx" />
+    <Content Include="CaseIndex.aspx" />
+    <Content Include="controls\footer.ascx" />
+    <Content Include="controls\header.ascx" />
+    <Content Include="DashBoard.aspx" />
+    <Content Include="HeaderDashboard.ascx" />
+    <Content Include="data.txt" />
+    <Content Include="images\Configuration-small.png" />
+    <Content Include="images\Configuration.png" />
+    <Content Include="images\female-user-icon-bright-blue-hi.png" />
+    <Content Include="images\HelvetasLogo.jpg" />
+    <Content Include="images\loading.gif" />
+    <Content Include="images\logo-helvetas.gif" />
+    <Content Include="images\logo-ng.gif" />
+    <Content Include="images\logo-SaMi.gif" />
+    <Content Include="images\logo-scon.gif" />
+    <Content Include="images\Male-user-icon-bright-blue-hi.png" />
+    <Content Include="images\person-male-small.png" />
+    <Content Include="images\SDC_Logo.png" />
+    <Content Include="Login.aspx" />
+    <Content Include="MasterData\AdditionalFollowupsInfo\Default.aspx" />
+    <Content Include="MasterData\AdditionalFollowupsInfo\index.aspx" />
+    <Content Include="MasterData\AgeGroup\Default.aspx" />
+    <Content Include="MasterData\AgeGroup\index.aspx" />
+    <Content Include="MasterData\CaseType\Default.aspx" />
+    <Content Include="MasterData\CaseType\Index.aspx" />
+    <Content Include="MasterData\Castes\Default.aspx" />
+    <Content Include="MasterData\Castes\Index.aspx" />
+    <Content Include="MasterData\Castes\Test.aspx" />
+    <Content Include="MasterData\CounselorDifficulty\Default.aspx" />
+    <Content Include="MasterData\CounselorDifficulty\index.aspx" />
+    <Content Include="MasterData\Country\Default.aspx" />
+    <Content Include="MasterData\Country\index.aspx" />
+    <Content Include="MasterData\DecisionStat\Default.aspx" />
+    <Content Include="MasterData\DecisionStat\index.aspx" />
+    <Content Include="MasterData\Default.aspx" />
+    <Content Include="MasterData\DocumentBehind\Default.aspx" />
+    <Content Include="MasterData\DocumentBehind\index.aspx" />
+    <Content Include="MasterData\DocumentType\Default.aspx" />
+    <Content Include="MasterData\DocumentType\index.aspx" />
+    <Content Include="MasterData\EducationalStat\Default.aspx" />
+    <Content Include="MasterData\EducationalStat\index.aspx" />
+    <Content Include="MasterData\Ethnicities\Default.aspx" />
+    <Content Include="MasterData\Ethnicities\index.aspx" />
+    <Content Include="MasterData\EvidenceType\Default.aspx" />
+    <Content Include="MasterData\EvidenceType\Index.aspx" />
+    <Content Include="MasterData\FamilyMember\Default.aspx" />
+    <Content Include="MasterData\FamilyMember\index.aspx" />
+    <Content Include="MasterData\FollowUps\Default.aspx" />
+    <Content Include="MasterData\FollowUps\index.aspx" />
+    <Content Include="MasterData\ICKnowledge\Default.aspx" />
+    <Content Include="MasterData\ICKnowledge\index.aspx" />
+    <Content Include="MasterData\ICRecommendation\Default.aspx" />
+    <Content Include="MasterData\ICRecommendation\index.aspx" />
+    <Content Include="MasterData\JobOfferSource\Default.aspx" />
+    <Content Include="MasterData\JobOfferSource\index.aspx" />
+    <Content Include="MasterData\JobOfferType\Default.aspx" />
+    <Content Include="MasterData\JobOfferType\index.aspx" />
+    <Content Include="MasterData\MoneyRange\Default.aspx" />
+    <Content Include="MasterData\MoneyRange\index.aspx" />
+    <Content Include="MasterData\NonFollowupReason\Default.aspx" />
+    <Content Include="MasterData\NonFollowupReason\index.aspx" />
+    <Content Include="MasterData\NonReferralReason\Default.aspx" />
+    <Content Include="MasterData\NonReferralReason\index.aspx" />
+    <Content Include="MasterData\OccupationType\Default.aspx" />
+    <Content Include="MasterData\OccupationType\index.aspx" />
+    <Content Include="MasterData\Organization\Default.aspx" />
+    <Content Include="MasterData\Organization\Index.aspx" />
+    <Content Include="MasterData\PassportStat\Default.aspx" />
+    <Content Include="MasterData\PassportStat\index.aspx" />
+    <Content Include="MasterData\PaymentRange\Default.aspx" />
+    <Content Include="MasterData\PaymentRange\index.aspx" />
+    <Content Include="MasterData\ProblemType\Default.aspx" />
+    <Content Include="MasterData\ProblemType\index.aspx" />
+    <Content Include="MasterData\ReferralStat\Default.aspx" />
+    <Content Include="MasterData\ReferralStat\index.aspx" />
+    <Content Include="MasterData\ReferralTos\Default.aspx" />
+    <Content Include="MasterData\ReferralTos\index.aspx" />
+    <Content Include="MasterData\ServiceProvide\Default.aspx" />
+    <Content Include="MasterData\ServiceProvide\index.aspx" />
+    <Content Include="MasterData\StakeHolder\Default.aspx" />
+    <Content Include="MasterData\StakeHolder\index.aspx" />
+    <Content Include="MasterData\UserType\Default.aspx" />
+    <Content Include="MasterData\UserType\index.aspx" />
+    <Content Include="MasterData\VisitFrequency\Default.aspx" />
+    <Content Include="MasterData\VisitFrequency\index.aspx" />
+    <Content Include="MasterData\WorkType\Default.aspx" />
+    <Content Include="MasterData\WorkType\index.aspx" />
+    <Content Include="MasterData\YearRange\Index.aspx" />
+    <Content Include="passwd.aspx" />
+    <Content Include="Profile\Add.aspx" />
+    <Content Include="Profile\Default.aspx" />
+    <Content Include="Profile\Edit.aspx" />
+    <Content Include="Profile\Index.aspx" />
+    <Content Include="Profile\js\CasteDropDown.js" />
+    <Content Include="Profile\js\ClickScript.js" />
+    <Content Include="Profile\js\ClickScripts.js" />
+    <Content Include="Profile\js\JScriptEdit.js" />
+    <Content Include="Profile\js\JScripts.js" />
+    <Content Include="Profile\js\Style.css" />
+    <Content Include="Profile\js\ValidateAdd.js" />
+    <Content Include="Profile\js\ValidateEdit.js" />
+    <Content Include="Profile\View.aspx" />
+    <Content Include="Reports\CaseReports.aspx" />
+    <Content Include="Reports\Default.aspx" />
+    <Content Include="Reports\EmploymentReports.aspx" />
+    <Content Include="Reports\PhoneFollowUp.aspx" />
+    <Content Include="Reports\Index.aspx" />
+    <Content Include="Reports\InProgress.aspx" />
+    <Content Include="Reports\js\JScript.js" />
+    <Content Include="Reports\ReportHeader.ascx" />
+    <Content Include="Reports\ReportICC.aspx" />
+    <Content Include="Reports\ReportPhoneFollowUp.aspx" />
+    <Content Include="Reports\SummaryReport.aspx" />
+    <Content Include="Reports\TrainingReports.aspx" />
+    <Content Include="Scripts\JScript.Includes.js" />
+    <Content Include="Services\CreateProfile.aspx" />
+    <Content Include="Services\Default.aspx" />
+    <Content Include="Services\Test.aspx" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Styles\style.css" />
+    <Content Include="Test.aspx" />
+    <Content Include="Training\Add.aspx" />
+    <Content Include="Training\Controls\Header.ascx" />
+    <Content Include="Training\css\bootstrap-select.css" />
+    <Content Include="Training\css\bootstrap-select.min.css" />
+    <Content Include="Training\css\datepicker.css" />
+    <Content Include="Training\css\nepali.datepicker.css" />
+    <Content Include="Training\Default.aspx" />
+    <Content Include="Training\Edit.aspx" />
+    <Content Include="Training\js\bootstrap-datepicker.js" />
+    <Content Include="Training\js\bootstrap-select.js" />
+    <Content Include="Training\js\bootstrap-select.min.js" />
+    <Content Include="Training\js\ClickScript.js" />
+    <Content Include="Training\js\i18n\defaults-cs_CZ.js" />
+    <Content Include="Training\js\i18n\defaults-cs_CZ.min.js" />
+    <Content Include="Training\js\i18n\defaults-de_DE.js" />
+    <Content Include="Training\js\i18n\defaults-de_DE.min.js" />
+    <Content Include="Training\js\i18n\defaults-en_US.js" />
+    <Content Include="Training\js\i18n\defaults-en_US.min.js" />
+    <Content Include="Training\js\i18n\defaults-es_CL.js" />
+    <Content Include="Training\js\i18n\defaults-es_CL.min.js" />
+    <Content Include="Training\js\i18n\defaults-eu.js" />
+    <Content Include="Training\js\i18n\defaults-eu.min.js" />
+    <Content Include="Training\js\i18n\defaults-fr_FR.js" />
+    <Content Include="Training\js\i18n\defaults-fr_FR.min.js" />
+    <Content Include="Training\js\i18n\defaults-it_IT.js" />
+    <Content Include="Training\js\i18n\defaults-it_IT.min.js" />
+    <Content Include="Training\js\i18n\defaults-nl_NL.js" />
+    <Content Include="Training\js\i18n\defaults-nl_NL.min.js" />
+    <Content Include="Training\js\i18n\defaults-pl_PL.js" />
+    <Content Include="Training\js\i18n\defaults-pl_PL.min.js" />
+    <Content Include="Training\js\i18n\defaults-pt_BR.js" />
+    <Content Include="Training\js\i18n\defaults-pt_BR.min.js" />
+    <Content Include="Training\js\i18n\defaults-ro_RO.js" />
+    <Content Include="Training\js\i18n\defaults-ro_RO.min.js" />
+    <Content Include="Training\js\i18n\defaults-ru_RU.js" />
+    <Content Include="Training\js\i18n\defaults-ru_RU.min.js" />
+    <Content Include="Training\js\i18n\defaults-zh_CN.js" />
+    <Content Include="Training\js\i18n\defaults-zh_CN.min.js" />
+    <Content Include="Training\js\jquery-1.10.2.min.js" />
+    <Content Include="Training\js\nepali.datepicker.js" />
+    <Content Include="Training\js\ValidateAdd.js" />
+    <Content Include="Training\MasterData\TRNAgency\Default.aspx" />
+    <Content Include="Training\MasterData\TRNChkList\Default.aspx" />
+    <Content Include="Training\MasterData\TRNEmploymentStatus\Default.aspx" />
+    <Content Include="Training\MasterData\TRNEmpType\Default.aspx" />
+    <Content Include="Training\MasterData\TRNOrganization\Default.aspx" />
+    <Content Include="Training\MasterData\TRNQualification\Default.aspx" />
+    <Content Include="Training\MasterData\TRNRecAgency\Default.aspx" />
+    <Content Include="Training\MasterData\TRNTrade\Default.aspx" />
+    <Content Include="Training\RecTrainee\Default.aspx" />
+    <Content Include="Training\TRNEvent\Default.aspx" />
+    <Content Include="Training\TrnReport\Default.aspx" />
+    <Content Include="Training\TrnReport\EmploymentCostSharing.aspx" />
+    <Content Include="Training\TrnReport\EmploymentRegular.aspx" />
+    <Content Include="Training\TrnReport\TrainingCostSharing.aspx" />
+    <Content Include="Training\TrnReport\TrainingRegular.aspx" />
+    <Content Include="Training\View.aspx" />
+    <Content Include="User\Add.aspx" />
+    <Content Include="User\ChangePassword.aspx" />
+    <Content Include="User\Edit.aspx" />
+    <Content Include="User\Index.aspx" />
+    <Content Include="User\js\JScript.js" />
+    <Content Include="User\ResetPassword.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin.Master.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin.Master.designer.cs">
+      <DependentUpon>Admin.Master</DependentUpon>
+    </Compile>
+    <Compile Include="AppSettings.cs" />
+    <Compile Include="CaseDocumentation\Add.aspx.cs">
+      <DependentUpon>Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CaseDocumentation\Add.aspx.designer.cs">
+      <DependentUpon>Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CaseDocumentation\controls\footer.ascx.cs">
+      <DependentUpon>footer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CaseDocumentation\controls\footer.ascx.designer.cs">
+      <DependentUpon>footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="CaseDocumentation\controls\header.ascx.cs">
+      <DependentUpon>header.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CaseDocumentation\controls\header.ascx.designer.cs">
+      <DependentUpon>header.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="CaseDocumentation\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CaseDocumentation\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CaseDocumentation\Edit.aspx.cs">
+      <DependentUpon>Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CaseDocumentation\Edit.aspx.designer.cs">
+      <DependentUpon>Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CaseDocumentation\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CaseDocumentation\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CaseDocumentation\RecruitmentList.aspx.cs">
+      <DependentUpon>RecruitmentList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CaseDocumentation\RecruitmentList.aspx.designer.cs">
+      <DependentUpon>RecruitmentList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CaseDocumentation\View.aspx.cs">
+      <DependentUpon>View.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CaseDocumentation\View.aspx.designer.cs">
+      <DependentUpon>View.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CaseIndex.aspx.cs">
+      <DependentUpon>CaseIndex.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CaseIndex.aspx.designer.cs">
+      <DependentUpon>CaseIndex.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CaseMaster.Master.cs">
+      <DependentUpon>CaseMaster.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CaseMaster.Master.designer.cs">
+      <DependentUpon>CaseMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="controllers\AdditionalFollowupInfoController.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="controllers\AdditionalFollowupInfoPerServiceController.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="controllers\AgeGroupsController.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="controllers\CaseReferredController.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="controllers\DecisionStatusController.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="controllers\DistrictsController.cs" />
+    <Compile Include="controllers\EducationalStatusController.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="controllers\EthnicityController.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="controllers\FollowupController.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="controllers\FollowUpPerServicesController.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="controllers\ForeignEmploymentStatusController.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="controllers\ICKnowledgeController.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="controllers\ICRecommendationsController.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="controllers\JobOfferedTypeController.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="controllers\JobOfferSourceController.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="controllers\MaritalStatusController.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="controllers\OtherFollowupPerServiceController.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="controllers\PassportStatusController.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="controllers\PreviousFEExperiencesController.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="controllers\SaMIOrganizationsController.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="controllers\SaMIProfilesController.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="controllers\ServiceProvidedPerSaMIController.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="controllers\ServicesProvidedController.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="controllers\TRNRecruitmentListController.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="controllers\UpdateSyncStatusController.cs" />
+    <Compile Include="controllers\UserAuthenticationController.cs" />
+    <Compile Include="controllers\UserController.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="controllers\UserTypeController.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="controllers\UserValid.cs" />
+    <Compile Include="controls\footer.ascx.cs">
+      <DependentUpon>footer.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\footer.ascx.designer.cs">
+      <DependentUpon>footer.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="controls\header.ascx.cs">
+      <DependentUpon>header.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\header.ascx.designer.cs">
+      <DependentUpon>header.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="DashBoard.aspx.cs">
+      <DependentUpon>DashBoard.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DashBoard.aspx.designer.cs">
+      <DependentUpon>DashBoard.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HeaderDashboard.ascx.cs">
+      <DependentUpon>HeaderDashboard.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HeaderDashboard.ascx.designer.cs">
+      <DependentUpon>HeaderDashboard.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Home.Master.cs">
+      <DependentUpon>Home.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Home.Master.designer.cs">
+      <DependentUpon>Home.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\AdditionalFollowupsInfo\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\AdditionalFollowupsInfo\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\AdditionalFollowupsInfo\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\AdditionalFollowupsInfo\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\AgeGroup\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\AgeGroup\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\AgeGroup\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\AgeGroup\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\CaseType\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\CaseType\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\CaseType\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\CaseType\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\Castes\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\Castes\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\Castes\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\Castes\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\Castes\Test.aspx.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\Castes\Test.aspx.designer.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\CounselorDifficulty\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\CounselorDifficulty\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\CounselorDifficulty\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\CounselorDifficulty\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\Country\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\Country\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\Country\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\Country\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\DecisionStat\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\DecisionStat\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\DecisionStat\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\DecisionStat\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\DocumentBehind\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\DocumentBehind\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\DocumentBehind\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\DocumentBehind\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\DocumentType\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\DocumentType\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\DocumentType\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\DocumentType\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\EducationalStat\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\EducationalStat\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\EducationalStat\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\EducationalStat\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\Ethnicities\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\Ethnicities\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\Ethnicities\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\Ethnicities\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\EvidenceType\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\EvidenceType\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\EvidenceType\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\EvidenceType\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\FamilyMember\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\FamilyMember\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\FamilyMember\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\FamilyMember\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\FollowUps\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\FollowUps\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\FollowUps\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\FollowUps\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\ICKnowledge\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\ICKnowledge\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\ICKnowledge\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\ICKnowledge\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\ICRecommendation\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\ICRecommendation\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\ICRecommendation\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\ICRecommendation\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\JobOfferSource\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\JobOfferSource\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\JobOfferSource\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\JobOfferSource\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\JobOfferType\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\JobOfferType\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\JobOfferType\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\JobOfferType\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\MoneyRange\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\MoneyRange\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\MoneyRange\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\MoneyRange\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\NonFollowupReason\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\NonFollowupReason\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\NonFollowupReason\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\NonFollowupReason\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\NonReferralReason\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\NonReferralReason\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\NonReferralReason\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\NonReferralReason\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\OccupationType\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\OccupationType\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\OccupationType\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\OccupationType\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\Organization\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\Organization\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\Organization\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\Organization\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\PassportStat\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\PassportStat\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\PassportStat\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\PassportStat\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\PaymentRange\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\PaymentRange\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\PaymentRange\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\PaymentRange\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\ProblemType\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\ProblemType\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\ProblemType\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\ProblemType\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\ReferralStat\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\ReferralStat\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\ReferralStat\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\ReferralStat\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\ReferralTos\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\ReferralTos\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\ReferralTos\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\ReferralTos\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\ServiceProvide\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\ServiceProvide\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\ServiceProvide\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\ServiceProvide\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\StakeHolder\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\StakeHolder\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\StakeHolder\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\StakeHolder\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\UserType\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\UserType\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\UserType\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\UserType\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\VisitFrequency\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\VisitFrequency\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\VisitFrequency\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\VisitFrequency\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\WorkType\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\WorkType\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\WorkType\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\WorkType\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterData\YearRange\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterData\YearRange\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="passwd.aspx.cs">
+      <DependentUpon>passwd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="passwd.aspx.designer.cs">
+      <DependentUpon>passwd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profile\Add.aspx.cs">
+      <DependentUpon>Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Profile\Add.aspx.designer.cs">
+      <DependentUpon>Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profile\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Profile\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profile\Edit.aspx.cs">
+      <DependentUpon>Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Profile\Edit.aspx.designer.cs">
+      <DependentUpon>Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profile\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Profile\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Profile\View.aspx.cs">
+      <DependentUpon>View.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Profile\View.aspx.designer.cs">
+      <DependentUpon>View.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\CaseReports.aspx.cs">
+      <DependentUpon>CaseReports.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports\CaseReports.aspx.designer.cs">
+      <DependentUpon>CaseReports.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\EmploymentReports.aspx.cs">
+      <DependentUpon>EmploymentReports.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports\EmploymentReports.aspx.designer.cs">
+      <DependentUpon>EmploymentReports.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\PhoneFollowUp.aspx.cs">
+      <DependentUpon>PhoneFollowUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports\PhoneFollowUp.aspx.designer.cs">
+      <DependentUpon>PhoneFollowUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\InProgress.aspx.cs">
+      <DependentUpon>InProgress.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports\InProgress.aspx.designer.cs">
+      <DependentUpon>InProgress.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\ReportHeader.ascx.cs">
+      <DependentUpon>ReportHeader.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports\ReportHeader.ascx.designer.cs">
+      <DependentUpon>ReportHeader.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\ReportICC.aspx.cs">
+      <DependentUpon>ReportICC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports\ReportICC.aspx.designer.cs">
+      <DependentUpon>ReportICC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\ReportPhoneFollowUp.aspx.cs">
+      <DependentUpon>ReportPhoneFollowUp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports\ReportPhoneFollowUp.aspx.designer.cs">
+      <DependentUpon>ReportPhoneFollowUp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\SummaryReport.aspx.cs">
+      <DependentUpon>SummaryReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports\SummaryReport.aspx.designer.cs">
+      <DependentUpon>SummaryReport.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\TrainingReports.aspx.cs">
+      <DependentUpon>TrainingReports.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reports\TrainingReports.aspx.designer.cs">
+      <DependentUpon>TrainingReports.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RestHandler.cs" />
+    <Compile Include="Services\CreateProfile.aspx.cs">
+      <DependentUpon>CreateProfile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Services\CreateProfile.aspx.designer.cs">
+      <DependentUpon>CreateProfile.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Services\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Services\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Services\JsonRequestHandler.cs" />
+    <Compile Include="Services\Profile.ashx.cs">
+      <DependentUpon>Profile.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Services\RequestHandler.ashx.cs">
+      <DependentUpon>RequestHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Services\Test.aspx.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Services\Test.aspx.designer.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Services\testHandler.ashx.cs">
+      <DependentUpon>testHandler.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Test.aspx.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Test.aspx.designer.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Trainings.Master.cs">
+      <DependentUpon>Trainings.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Trainings.Master.designer.cs">
+      <DependentUpon>Trainings.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Training\Add.aspx.cs">
+      <DependentUpon>Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Training\Add.aspx.designer.cs">
+      <DependentUpon>Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Training\Controls\Header.ascx.cs">
+      <DependentUpon>Header.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Training\Controls\Header.ascx.designer.cs">
+      <DependentUpon>Header.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Training\Convert2NepaliDate.cs" />
+    <Compile Include="Training\ConvertToEnglishDate.cs" />
+    <Compile Include="Training\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Training\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Training\Edit.aspx.cs">
+      <DependentUpon>Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Training\Edit.aspx.designer.cs">
+      <DependentUpon>Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Training\EnglishDate.cs" />
+    <Compile Include="Training\EnglishDateDataArray.cs" />
+    <Compile Include="Training\GetDateFormated.cs" />
+    <Compile Include="Training\MasterData\TRNAgency\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Training\MasterData\TRNAgency\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Training\MasterData\TRNChkList\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Training\MasterData\TRNChkList\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Training\MasterData\TRNEmploymentStatus\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Training\MasterData\TRNEmploymentStatus\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Training\MasterData\TRNEmpType\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Training\MasterData\TRNEmpType\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Training\MasterData\TRNOrganization\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Training\MasterData\TRNOrganization\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Training\MasterData\TRNQualification\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Training\MasterData\TRNQualification\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Training\MasterData\TRNRecAgency\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Training\MasterData\TRNRecAgency\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Training\MasterData\TRNTrade\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Training\MasterData\TRNTrade\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Training\NepaliDate.cs" />
+    <Compile Include="Training\NepaliDateDataArray.cs" />
+    <Compile Include="Training\NepaliToEnglishConversion.cs" />
+    <Compile Include="Training\RecTrainee\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Training\RecTrainee\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Training\TRNEvent\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Training\TRNEvent\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Training\TrnReport\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Training\TrnReport\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Training\TrnReport\EmploymentCostSharing.aspx.cs">
+      <DependentUpon>EmploymentCostSharing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Training\TrnReport\EmploymentCostSharing.aspx.designer.cs">
+      <DependentUpon>EmploymentCostSharing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Training\TrnReport\EmploymentRegular.aspx.cs">
+      <DependentUpon>EmploymentRegular.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Training\TrnReport\EmploymentRegular.aspx.designer.cs">
+      <DependentUpon>EmploymentRegular.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Training\TrnReport\TrainingCostSharing.aspx.cs">
+      <DependentUpon>TrainingCostSharing.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Training\TrnReport\TrainingCostSharing.aspx.designer.cs">
+      <DependentUpon>TrainingCostSharing.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Training\TrnReport\TrainingRegular.aspx.cs">
+      <DependentUpon>TrainingRegular.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Training\TrnReport\TrainingRegular.aspx.designer.cs">
+      <DependentUpon>TrainingRegular.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Training\View.aspx.cs">
+      <DependentUpon>View.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Training\View.aspx.designer.cs">
+      <DependentUpon>View.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserAuthentication.cs" />
+    <Compile Include="User\Add.aspx.cs">
+      <DependentUpon>Add.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\Add.aspx.designer.cs">
+      <DependentUpon>Add.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\Edit.aspx.cs">
+      <DependentUpon>Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\Edit.aspx.designer.cs">
+      <DependentUpon>Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="User\ResetPassword.aspx.cs">
+      <DependentUpon>ResetPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\ResetPassword.aspx.designer.cs">
+      <DependentUpon>ResetPassword.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Service\" />
+    <Folder Include="Training\Photos\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Site.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SaMI.Business\SaMI.Business.csproj">
+      <Project>{798898DB-A4C3-4D9B-98BD-2943BA215C3E}</Project>
+      <Name>SaMI.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SaMI.DataAccess\SaMI.DataAccess.csproj">
+      <Project>{5943e722-28b0-492a-aa20-9a1c6b02c9e3}</Project>
+      <Name>SaMI.DataAccess</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SaMI.DTO\SaMI.DTO.csproj">
+      <Project>{D9CF3599-D85D-4965-819C-B61BD050A1A4}</Project>
+      <Name>SaMI.DTO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SaMI.Utilities\SaMI.Utilities.csproj">
+      <Project>{B51C8E16-0205-4EAC-854A-297A732C40B1}</Project>
+      <Name>SaMI.Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin.Master" />
+    <None Include="assets\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="assets\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="assets\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Services\Profile.ashx" />
+    <Content Include="Services\RequestHandler.ashx" />
+    <Content Include="Trainings.Master" />
+    <Content Include="Home.Master" />
+    <Content Include="CaseMaster.Master" />
+    <Content Include="Services\testHandler.ashx" />
+    <Content Include="packages.config" />
+    <None Include="Properties\PublishProfiles\Helvetas.SaMI.pubxml" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Training\css\bootstrap-select.css.map" />
+    <None Include="Training\js\bootstrap-select.js.map" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>55619</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

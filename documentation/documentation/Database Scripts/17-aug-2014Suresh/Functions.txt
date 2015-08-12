@@ -1,0 +1,46 @@
+USE [db_SaMI]
+GO
+/****** Object:  UserDefinedFunction [dbo].[ufnGenerateSaMIProfileNumber]    Script Date: 08/17/2014 10:20:36 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create FUNCTION [dbo].[ufnGenerateCaseProfileNumber](@DistrictID int)
+RETURNS varchar(50)
+AS 
+-- Returns the stock level for the product.
+BEGIN
+	DECLARE @SeqNo int;
+	DECLARE @DistrictCode varchar(3);
+    DECLARE @ret varchar(50);
+    SELECT @SeqNo = dbo.ufnGetCaseProfileMaxSequenceNo(@DistrictID);
+    SELECT @DistrictCode = DistrictCode FROM tbl_districts WHERE DistrictID = @DistrictID;
+    
+    SET @ret = @DistrictCode + '-' + CONVERT(varchar(3),@SeqNo);
+        
+    RETURN @ret;
+END;
+
+
+
+USE [db_SaMI]
+GO
+/****** Object:  UserDefinedFunction [dbo].[ufnGetSaMIProfileMaxSequenceNo]    Script Date: 08/17/2014 10:21:14 ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+create FUNCTION [dbo].[ufnGetCaseProfileMaxSequenceNo](@DistrictID int)
+RETURNS int
+AS 
+-- Returns the stock level for the product.
+BEGIN
+	
+    DECLARE @ret int;
+    SET @ret = 0;        
+    SELECT @ret = COUNT(SequenceNo) + 1
+    FROM tbl_case_profiles 
+    WHERE DistrictID = @DistrictID;    
+        
+    RETURN @ret;
+END;

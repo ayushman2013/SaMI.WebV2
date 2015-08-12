@@ -1,0 +1,63 @@
+Server - Animesh
+
+tbl_follow_up_per_services
+- Column CounselorDifficultyID not in use...
+- Column FurtherFollowUpID is added
+
+
+tbl_sami_profile
+- No of child male...child female...adult male... adult female -	set to null
+- InformationSource - set to null
+
+FK_tbl_SaMI_profiles_tbl_districts_addr_temp - removed
+
+
+create table - geobasedethnicity
+
+ValidRegions on ethnicity;
+
+ALTER TABLE dbo.tbl_SaMI_profiles ADD
+	GeoBasedEthnicityID int NULL
+GO
+ALTER TABLE dbo.tbl_SaMI_profiles ADD CONSTRAINT
+	DF_tbl_SaMI_profiles_GeoBasedEthnicityID DEFAULT 0 FOR GeoBasedEthnicityID
+
+
+
+tbl_follow_up_per_services
+- ICRecommendationID - datatype changed to varchar, default value 1,2,3,4,5,6,7,8
+- FollowUpID - datatype changed to varchar
+- FurtherFollowUpID - int - added
+- FurtherFollowUpRequired - int - added
+
+tbl_previous_fe_experiences and tbl_destination_airport
+-Remove relationship with tbl_destination_airport
+
+
+tbl_sami_profiles 
+- Isdiscriminated default value set to 0
+- ValidRegions is added with default value 1,2,3
+
+
+tbl_previous_fe_experiences
+- JobOfferedTypeID int - relationship with table tbl_job_offered_types
+- StayDuration varchar(50) - added
+- VisitFrequencyID - set to null
+
+tbl_SaMI_profiles
+- CasteID - Default Value 0
+- delete relationship with tbl_Caste
+- delete relationship with tbl_Occupation_types
+- EthnicityID
+-ReferStatus - tinyint
+
+TRNRecruitmentList is added
+
+
+
+tbl_case_documentation
+- remove fk with tbl_districts
+
+
+
+

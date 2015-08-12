@@ -1,0 +1,92 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="SaMI.Web.SiteMaster" %>
+
+<%@ Register src="controls/header.ascx" tagname="header" tagprefix="ucHeader" %>
+<%@ Register src="controls/footer.ascx" tagname="footer" tagprefix="ucFooter" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="~/assets/css/jquery-ui-1.10.3.custom.min.css" />
+    <link rel="stylesheet" href="~/assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/assets/css/bootstrap-theme.min.css" />
+    
+    <link href="~/Styles/style.css" rel="stylesheet" />
+    <script type="text/javascript" src="/assets/js/jquery.js"></script>
+    <script type="text/javascript" src="/assets/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="~/assets/css/jquery-ui.css" />
+     <script type="text/javascript" src="/assets/js/jquery-ui.js"></script>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server"  class="validate">
+    
+        <ucHeader:header ID="header1" runat="server" />
+        <div  style="margin-top:50px;"> </div>
+        <div class="container" style="min-height:500px">
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        
+        </asp:ContentPlaceHolder>
+       </div>
+       
+        <ucFooter:footer ID="footer1" runat="server" />
+               
+       <div class="modal fade" id="divReminder" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                        &times;</button>
+                    <h4 class="modal-title" id="H1">
+                        Case Follow-up Reminder:</h4>
+                </div>
+                <div class="modal-body">
+                    <div>
+                        <asp:GridView ID="gvCaseFollowUpReminder" runat="server" ShowHeaderWhenEmpty="True"
+                            AutoGenerateColumns="False" ShowHeader="True" CssClass="table table-striped table-hover">
+                            <Columns>
+                                <asp:HyperLinkField HeaderText = "Profile" DataTextField="SaMIProfileNumber" DataNavigateUrlFields="SaMIProfileID"  
+                                DataNavigateUrlFormatString ="Profile/Edit.aspx?ID={0}" />
+                                <asp:BoundField DataField="CaseRegisteredDate" HeaderText="Registered Date" />
+                                <asp:BoundField DataField="CaseNumber" HeaderText="Case Number" />
+                                <asp:BoundField DataField="CaseTypeDesc" HeaderText="Case Type" />
+                                <asp:BoundField DataField="PartnerName" HeaderText="Partner" />
+                                <asp:BoundField DataField="CaseStatusTypeDesc" HeaderText="Status" /> 
+                            </Columns>
+                        </asp:GridView>
+                    </div>
+                    <div>
+                        <asp:Panel ID="pnlCaseUpdate" runat="server">
+                        <h4>
+                            Case Updates</h4>
+                        <asp:GridView ID="gvCaseFollowUpUpdateReminder" runat="server" ShowHeaderWhenEmpty="True"
+                            AutoGenerateColumns="False" ShowHeader="True" CssClass="table table-striped table-hover">
+                            <Columns>
+                                <asp:HyperLinkField HeaderText = "Profile" DataTextField="SaMIProfileNumber" DataNavigateUrlFields="SaMIProfileID"  
+                                    DataNavigateUrlFormatString ="Profile/Edit.aspx?ID={0}" />
+                                <asp:BoundField DataField="CaseRegisteredDate" HeaderText="Registered Date" />
+                                <asp:BoundField DataField="CaseNumber" HeaderText="Case Number" />
+                                <asp:BoundField DataField="CaseTypeDesc" HeaderText="Case Type" />
+                                <asp:BoundField DataField="PartnerName" HeaderText="Partner" />
+                                <asp:BoundField DataField="FollowUpDate" HeaderText="Follow-up Date" />
+                                <asp:BoundField DataField="CaseFollowUpDescription" HeaderText="Follow-up Details" />
+                                <asp:BoundField DataField="CaseStatusTypeDesc" HeaderText="Status" />
+                            </Columns>
+                        </asp:GridView>
+                        </asp:Panel>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">
+                        Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

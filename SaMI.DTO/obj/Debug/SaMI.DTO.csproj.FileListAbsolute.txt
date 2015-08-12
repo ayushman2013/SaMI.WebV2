@@ -1,0 +1,66 @@
+D:\Users\Suresh\Dot Net\SaMI\SaMI.DTO\bin\Debug\SaMI.DTO.dll
+D:\Users\Suresh\Dot Net\SaMI\SaMI.DTO\bin\Debug\SaMI.DTO.pdb
+D:\Users\Suresh\Dot Net\SaMI\SaMI.DTO\obj\Debug\ResolveAssemblyReference.cache
+D:\Users\Suresh\Dot Net\SaMI\SaMI.DTO\obj\Debug\SaMI.DTO.dll
+D:\Users\Suresh\Dot Net\SaMI\SaMI.DTO\obj\Debug\SaMI.DTO.pdb
+D:\Suresh\Projects\Helvetas.SaMI\SaMI.DTO\bin\Debug\SaMI.DTO.dll
+D:\Suresh\Projects\Helvetas.SaMI\SaMI.DTO\bin\Debug\SaMI.DTO.pdb
+D:\Suresh\Projects\Helvetas.SaMI\SaMI.DTO\obj\Debug\SaMI.DTO.dll
+D:\Suresh\Projects\Helvetas.SaMI\SaMI.DTO\obj\Debug\SaMI.DTO.pdb
+D:\Suresh\Projects\Helvetas.SaMI\SaMI.DTO\obj\Debug\SaMI.DTO.csprojResolveAssemblyReference.cache
+D:\Documents\Helvetas.SaMI\SaMI.DTO\bin\Debug\SaMI.DTO.dll
+D:\Documents\Helvetas.SaMI\SaMI.DTO\bin\Debug\SaMI.DTO.pdb
+D:\Documents\Helvetas.SaMI\SaMI.DTO\obj\Debug\SaMI.DTO.dll
+D:\Documents\Helvetas.SaMI\SaMI.DTO\obj\Debug\SaMI.DTO.pdb
+D:\Documents\Helvetas.SaMI\SaMI.DTO\obj\Debug\SaMI.DTO.csprojResolveAssemblyReference.cache
+D:\Helvetas.SaMI\SaMI.DTO\bin\Debug\SaMI.DTO.dll
+D:\Helvetas.SaMI\SaMI.DTO\bin\Debug\SaMI.DTO.pdb
+D:\Helvetas.SaMI\SaMI.DTO\obj\Debug\SaMI.DTO.dll
+D:\Helvetas.SaMI\SaMI.DTO\obj\Debug\SaMI.DTO.pdb
+D:\Documents\REBINA\NG-Outsourcing\NG-Outsourcing Projects\Helvetas.SaMI\SaMI.DTO\bin\Debug\SaMI.DTO.dll
+D:\Documents\REBINA\NG-Outsourcing\NG-Outsourcing Projects\Helvetas.SaMI\SaMI.DTO\bin\Debug\SaMI.DTO.pdb
+D:\Documents\REBINA\NG-Outsourcing\NG-Outsourcing Projects\Helvetas.SaMI\SaMI.DTO\obj\Debug\SaMI.DTO.dll
+D:\Documents\REBINA\NG-Outsourcing\NG-Outsourcing Projects\Helvetas.SaMI\SaMI.DTO\obj\Debug\SaMI.DTO.pdb
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.DTO\bin\Debug\SaMI.DTO.dll
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.DTO\bin\Debug\SaMI.DTO.pdb
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.DTO\obj\Debug\SaMI.DTO.dll
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.DTO\obj\Debug\SaMI.DTO.pdb
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.DTO\obj\Debug\SaMI.DTO.csprojResolveAssemblyReference.cache
+D:\Soft\Projects\Helvetas.SaMI\SaMI.DTO\bin\Debug\SaMI.DTO.dll
+D:\Soft\Projects\Helvetas.SaMI\SaMI.DTO\bin\Debug\SaMI.DTO.pdb
+D:\Soft\Projects\Helvetas.SaMI\SaMI.DTO\obj\Debug\SaMI.DTO.csprojResolveAssemblyReference.cache
+D:\Soft\Projects\Helvetas.SaMI\SaMI.DTO\obj\Debug\SaMI.DTO.dll
+D:\Soft\Projects\Helvetas.SaMI\SaMI.DTO\obj\Debug\SaMI.DTO.pdb
+C:\Users\Sunil Bahadur Bist\Desktop\Sami We and API\SaMI.DTO\bin\Debug\SaMI.DTO.dll
+C:\Users\Sunil Bahadur Bist\Desktop\Sami We and API\SaMI.DTO\bin\Debug\SaMI.DTO.pdb
+C:\Users\Sunil Bahadur Bist\Desktop\Sami We and API\SaMI.DTO\obj\Debug\SaMI.DTO.csprojResolveAssemblyReference.cache
+C:\Users\Sunil Bahadur Bist\Desktop\Sami We and API\SaMI.DTO\obj\Debug\SaMI.DTO.dll
+C:\Users\Sunil Bahadur Bist\Desktop\Sami We and API\SaMI.DTO\obj\Debug\SaMI.DTO.pdb
+E:\Projects\SaMI.Web\SaMI.DTO\bin\Debug\SaMI.DTO.dll
+E:\Projects\SaMI.Web\SaMI.DTO\bin\Debug\SaMI.DTO.pdb
+E:\Projects\SaMI.Web\SaMI.DTO\obj\Debug\SaMI.DTO.csprojResolveAssemblyReference.cache
+E:\Projects\SaMI.Web\SaMI.DTO\obj\Debug\SaMI.DTO.dll
+E:\Projects\SaMI.Web\SaMI.DTO\obj\Debug\SaMI.DTO.pdb
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.DTO\bin\Debug\SaMI.DTO.dll
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.DTO\bin\Debug\SaMI.DTO.pdb
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.DTO\obj\Debug\SaMI.DTO.csprojResolveAssemblyReference.cache
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.DTO\obj\Debug\SaMI.DTO.dll
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.DTO\obj\Debug\SaMI.DTO.pdb
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.DTO\bin\Debug\SaMI.DTO.dll
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.DTO\bin\Debug\SaMI.DTO.pdb
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.DTO\obj\Debug\SaMI.DTO.csprojResolveAssemblyReference.cache
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.DTO\obj\Debug\SaMI.DTO.dll
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.DTO\obj\Debug\SaMI.DTO.pdb
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.DTO\bin\Debug\SaMI.DTO.dll
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.DTO\bin\Debug\SaMI.DTO.pdb
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.DTO\obj\Debug\SaMI.DTO.csprojResolveAssemblyReference.cache
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.DTO\obj\Debug\SaMI.DTO.dll
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.DTO\obj\Debug\SaMI.DTO.pdb
+D:\Documents\REBINA\SVN\SaMi.Web\trunk\SaMI.DTO\bin\Debug\SaMI.DTO.dll
+D:\Documents\REBINA\SVN\SaMi.Web\trunk\SaMI.DTO\bin\Debug\SaMI.DTO.pdb
+D:\Documents\REBINA\SVN\SaMi.Web\trunk\SaMI.DTO\obj\Debug\SaMI.DTO.dll
+D:\Documents\REBINA\SVN\SaMi.Web\trunk\SaMI.DTO\obj\Debug\SaMI.DTO.pdb
+C:\Users\bina\Documents\Visual Studio 2012\Projects\SaMI.WebV2\SaMI.DTO\bin\Debug\SaMI.DTO.dll
+C:\Users\bina\Documents\Visual Studio 2012\Projects\SaMI.WebV2\SaMI.DTO\bin\Debug\SaMI.DTO.pdb
+C:\Users\bina\Documents\Visual Studio 2012\Projects\SaMI.WebV2\SaMI.DTO\obj\Debug\SaMI.DTO.dll
+C:\Users\bina\Documents\Visual Studio 2012\Projects\SaMI.WebV2\SaMI.DTO\obj\Debug\SaMI.DTO.pdb

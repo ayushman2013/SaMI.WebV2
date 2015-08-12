@@ -1,0 +1,68 @@
+USE [db_SaMI]
+GO
+
+/****** Object:  Table [dbo].[tbl_case_profiles]    Script Date: 08/17/2014 13:43:05 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[tbl_case_profiles](
+	[CaseProfileID] [int] IDENTITY(1,1) NOT NULL,
+	[DistrictID] [int] NOT NULL,
+	[FirstName] [varchar](50) NOT NULL,
+	[MiddleName] [varchar](50) NULL,
+	[LastName] [varchar](50) NOT NULL,
+	[CreatedBy] [int] NOT NULL,
+	[CreatedDate] [datetime] NOT NULL,
+	[UpdatedBy] [int] NULL,
+	[UpdatedDate] [datetime] NULL,
+	[CaseProfileNumber] [varchar](50) NULL,
+	[VDCID] [int] NULL,
+	[SequenceNo] [int] NULL,
+ CONSTRAINT [PK_tbl_case_profiles] PRIMARY KEY CLUSTERED 
+(
+	[CaseProfileID] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+
+
+
+USE [db_SaMI]
+GO
+
+/****** Object:  Table [dbo].[tbl_skill_partners]    Script Date: 08/17/2014 13:44:48 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[tbl_skill_partners](
+	[SkillPartnerID] [int] IDENTITY(1,1) NOT NULL,
+	[SkillPartnerName] [varchar](50) NOT NULL,
+ CONSTRAINT [PK_tbl_skill_partners] PRIMARY KEY CLUSTERED 
+(
+	[SkillPartnerID] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+

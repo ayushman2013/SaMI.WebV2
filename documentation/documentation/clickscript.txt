@@ -1,0 +1,161 @@
+function OnLoad() {
+    /*********** Employment ************************/
+    $("#ctl00_TrainingBody_chkUnEmployment").attr('checked', 'checked');
+    $("#ctl00_TrainingBody_txtSelfEmploymentIncome").attr("disabled", "disabled");
+    $('#ctl00_TrainingBody_txtSelfEmploymentIncome').val('');
+
+    /*************** Abroad Job *************************/
+    $("#ctl00_TrainingBody_txtDepartureDate").attr("disabled", "disabled");
+    $("#ctl00_TrainingBody_ddlRecruitmentAgency").attr("disabled", "disabled");
+    $("#ctl00_TrainingBody_ddlOrganization").attr("disabled", "disabled");
+    $("#ctl00_TrainingBody_ddlEmploymentType").attr("disabled", "disabled");
+    $("#ctl00_TrainingBody_ddlEmploymentStatus").attr("disabled", "disabled");
+    $("#ctl00_TrainingBody_txtJobDoneMonth").attr("disabled", "disabled");
+    $("#ctl00_TrainingBody_txtJobDoneYear").attr("disabled", "disabled");
+    $("#ctl00_TrainingBody_txtJobDoneYear").attr("disabled", "disabled");
+    $("#ctl00_TrainingBody_txtMonthlySalary").attr("disabled", "disabled");
+    $("#ctl00_TrainingBody_txtReturnDate").attr("disabled", "disabled");
+
+    $("#ctl00_TrainingBody_txtDepartureDate").val('');
+    $("#ctl00_TrainingBody_ddlRecruitmentAgency").val('0');
+    $("#ctl00_TrainingBody_ddlOrganization").val('0');
+    $("#ctl00_TrainingBody_ddlEmploymentType").val('0');
+    $("#ctl00_TrainingBody_ddlEmploymentStatus").val('0');
+    $("#ctl00_TrainingBody_txtJobDoneMonth").val('');
+    $("#ctl00_TrainingBody_txtJobDoneYear").val('');
+    $("#ctl00_TrainingBody_txtJobDoneYear").val('');
+    $("#ctl00_TrainingBody_txtMonthlySalary").val('');
+    $("#ctl00_TrainingBody_txtReturnDate").val('');
+
+    /**************** Previous foreign Employment *****************/
+    $("#ctl00_TrainingBody_txtTrainingName").attr("disabled", "disabled");
+    $("#ctl00_TrainingBody_txtTrainingYear").attr("disabled", "disabled");
+    $("#ctl00_TrainingBody_txtTrainingInstituteName").attr("disabled", "disabled");
+    $("#ctl00_TrainingBody_txtTrainingDuration").attr("disabled", "disabled");
+}
+
+
+function ResetClick() {
+    
+//    $("#ctl00_TrainingBody_chkUnEmployment").attr('checked', 'checked');
+//    $("#ctl00_TrainingBody_txtSelfEmploymentIncome").attr("disabled", "disabled");
+
+
+
+////        $("#ctl00_TrainingBody_txtAgricultureIncome").attr("disabled", "disabled");
+////        $("#ctl00_TrainingBody_txtWageIncome").attr("disabled", "disabled");
+////        $("#ctl00_TrainingBody_txtForeignIncome").attr("disabled", "disabled");
+////        $("#ctl00_TrainingBody_txtOtherIncome").attr("disabled", "disabled");
+////        $("#ctl00_TrainingBody_txtFamilyMember").attr("disabled", "disabled");
+////        $("#ctl00_TrainingBody_ddlFeedDurationTypeID").attr("disabled", "disabled");
+
+//        $('#ctl00_TrainingBody_txtSelfEmploymentIncome').val('');
+//        $("#ctl00_TrainingBody_txtAgricultureIncome").val('');
+//        $("#ctl00_TrainingBody_txtWageIncome").val('');
+//        $("#ctl00_TrainingBody_txtForeignIncome").val('');
+//        $("#ctl00_TrainingBody_txtOtherIncome").val('');
+//        //$("#ctl00_TrainingBody_txtFamilyMember").val('');
+//        $("#ctl00_TrainingBody_ddlFeedDurationTypeID").val('');
+//       
+       
+        //$("#ctl00_TrainingBody_ddlTraineeCheckList").attr("disabled", "disabled");
+        $("input#ctl00_TrainingBody_chkUnEmployment").click(function () {
+            if ($(this).is(":checked")) {
+
+                $("#ctl00_TrainingBody_txtSelfEmploymentIncome").attr("disabled", "disabled");
+//                $("#ctl00_TrainingBody_txtAgricultureIncome").attr("disabled", "disabled");
+//                $("#ctl00_TrainingBody_txtWageIncome").attr("disabled", "disabled");
+//                $("#ctl00_TrainingBody_txtForeignIncome").attr("disabled", "disabled");
+//                $("#ctl00_TrainingBody_txtOtherIncome").attr("disabled", "disabled");
+//                $("#ctl00_TrainingBody_txtFamilyMember").attr("disabled", "disabled");
+//                $("#ctl00_TrainingBody_ddlFeedDurationTypeID").attr("disabled", "disabled");
+
+                $('#ctl00_TrainingBody_txtSelfEmploymentIncome').val('');
+//                $("#ctl00_TrainingBody_txtAgricultureIncome").val('');
+//                $("#ctl00_TrainingBody_txtWageIncome").val('');
+//                $("#ctl00_TrainingBody_txtForeignIncome").val('');
+//                $("#ctl00_TrainingBody_txtOtherIncome").val('');
+//                $("#ctl00_TrainingBody_txtFamilyMember").val('');
+//                $("#ctl00_TrainingBody_ddlFeedDurationTypeID").val('');
+
+            } else {
+                $("#ctl00_TrainingBody_txtSelfEmploymentIncome").removeAttr("disabled");
+//                $("#ctl00_TrainingBody_txtAgricultureIncome").removeAttr("disabled");
+//                $("#ctl00_TrainingBody_txtWageIncome").removeAttr("disabled");
+//                $("#ctl00_TrainingBody_txtForeignIncome").removeAttr("disabled");
+//                $("#ctl00_TrainingBody_txtOtherIncome").removeAttr("disabled");
+//                $("#ctl00_TrainingBody_txtFamilyMember").removeAttr("disabled");
+//                $("#ctl00_TrainingBody_ddlFeedDurationTypeID").removeAttr("disabled");
+               
+
+            }
+
+        });
+
+        $("input#ctl00_TrainingBody_rdoAbroadNo").click(function () {
+            $("#ctl00_TrainingBody_txtDepartureDate").attr("disabled", "disabled");
+            $("#ctl00_TrainingBody_ddlRecruitmentAgency").attr("disabled", "disabled");
+            $("#ctl00_TrainingBody_ddlOrganization").attr("disabled", "disabled");
+            $("#ctl00_TrainingBody_ddlEmploymentType").attr("disabled", "disabled");
+            $("#ctl00_TrainingBody_ddlEmploymentStatus").attr("disabled", "disabled");
+            $("#ctl00_TrainingBody_txtJobDoneMonth").attr("disabled", "disabled");
+            $("#ctl00_TrainingBody_txtJobDoneYear").attr("disabled", "disabled");
+            $("#ctl00_TrainingBody_txtJobDoneYear").attr("disabled", "disabled");
+            $("#ctl00_TrainingBody_txtMonthlySalary").attr("disabled", "disabled");
+            $("#ctl00_TrainingBody_txtReturnDate").attr("disabled", "disabled");
+
+            $("#ctl00_TrainingBody_txtDepartureDate").val('');
+            $("#ctl00_TrainingBody_ddlRecruitmentAgency").val('0');
+            $("#ctl00_TrainingBody_ddlOrganization").val('0');
+            $("#ctl00_TrainingBody_ddlEmploymentType").val('0');
+            $("#ctl00_TrainingBody_ddlEmploymentStatus").val('0');
+            $("#ctl00_TrainingBody_txtJobDoneMonth").val('');
+            $("#ctl00_TrainingBody_txtJobDoneYear").val('');
+            $("#ctl00_TrainingBody_txtJobDoneYear").val('');
+            $("#ctl00_TrainingBody_txtMonthlySalary").val('');
+            $("#ctl00_TrainingBody_txtReturnDate").val('');
+        });
+
+        $("input#ctl00_TrainingBody_rdoAbroadYes").click(function () {
+            $("#ctl00_TrainingBody_txtDepartureDate").removeAttr("disabled");
+            $("#ctl00_TrainingBody_ddlRecruitmentAgency").removeAttr("disabled");
+            $("#ctl00_TrainingBody_ddlOrganization").removeAttr("disabled");
+            $("#ctl00_TrainingBody_ddlEmploymentType").removeAttr("disabled");
+            $("#ctl00_TrainingBody_ddlEmploymentStatus").removeAttr("disabled");
+            $("#ctl00_TrainingBody_txtJobDoneMonth").removeAttr("disabled");
+            $("#ctl00_TrainingBody_txtJobDoneYear").removeAttr("disabled");
+            $("#ctl00_TrainingBody_txtMonthlySalary").removeAttr("disabled");
+            $("#ctl00_TrainingBody_txtMonthlySalary").removeAttr("disabled");
+            $("#ctl00_TrainingBody_txtReturnDate").removeAttr("disabled");
+        });
+
+        $("input#ctl00_TrainingBody_rbHavePreviousTrainingNo").click(function () {
+            $("#ctl00_TrainingBody_txtTrainingName").attr("disabled", "disabled");
+            $("#ctl00_TrainingBody_txtTrainingYear").attr("disabled", "disabled");
+            $("#ctl00_TrainingBody_txtTrainingInstituteName").attr("disabled", "disabled");
+            $("#ctl00_TrainingBody_txtTrainingDuration").attr("disabled", "disabled");
+            //$("#ctl00_TrainingBody_fuPhoto").attr("disabled", "disabled");
+           // $("#ctl00_TrainingBody_ddlTraineeCheckList").attr("disabled", "disabled");
+
+            $("#ctl00_TrainingBody_txtTrainingName").val('');
+            $("#ctl00_TrainingBody_txtTrainingYear").val('');
+            $("#ctl00_TrainingBody_txtTrainingInstituteName").val('');
+            $("#ctl00_TrainingBody_txtTrainingDuration").val('');
+//            $("#ctl00_TrainingBody_fuPhoto").val('');
+
+//            $("#ctl00_TrainingBody_ddlTraineeCheckList option:selected").removeAttr("selected");
+//            $('.selectpicker').selectpicker('refresh');
+        });
+
+        $("input#ctl00_TrainingBody_rbHavePreviousTrainingYes").click(function () {
+            $("#ctl00_TrainingBody_txtTrainingName").removeAttr("disabled");
+            $("#ctl00_TrainingBody_txtTrainingYear").removeAttr("disabled");
+            $("#ctl00_TrainingBody_txtTrainingInstituteName").removeAttr("disabled");
+            $("#ctl00_TrainingBody_txtTrainingDuration").removeAttr("disabled");
+//            $("#ctl00_TrainingBody_ddlTraineeCheckList").removeAttr("disabled");
+//            $('button').removeClass('disabled');
+//            $('.selectpicker li').each(function () {
+//                $(this).removeAttr('class');
+//            });
+        });
+}

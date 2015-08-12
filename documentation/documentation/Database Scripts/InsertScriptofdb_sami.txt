@@ -1,0 +1,41 @@
+SET IDENTITY_INSERT [dbo].[tbl_fe_documents_per_SaMI_profile] ON
+INSERT [dbo].[tbl_fe_documents_per_SaMI_profile] ([FEDocumentPerSaMIProfileID], [SaMIProfileID], [DocumentTypeID]) VALUES (36, 1646, 1)
+INSERT [dbo].[tbl_fe_documents_per_SaMI_profile] ([FEDocumentPerSaMIProfileID], [SaMIProfileID], [DocumentTypeID]) VALUES (37, 1673, 1)
+SET IDENTITY_INSERT [dbo].[tbl_fe_documents_per_SaMI_profile] OFF
+
+
+
+
+
+
+SET IDENTITY_INSERT [dbo].[tbl_other_member_migrations] ON
+INSERT [dbo].[tbl_other_member_migrations] ([OtherMemberMigrationID], [SaMIProfileID], [FamilyMemberID], [CountryID], [DoesSendMoney], [MoneyRangeID], [FacedProblem], [ProblemID], [VisitSameCountry], [CreatedBy], [CreatedDate], [UpdatedBy], [UpdatedDate]) VALUES (10, 1646, 4, 3, 1, 1, 0, NULL, 0, 10, CAST(0x0000A39200D33E84 AS DateTime), NULL, CAST(0x0000A39200D33F82 AS DateTime))
+SET IDENTITY_INSERT [dbo].[tbl_other_member_migrations] OFF
+
+
+
+
+
+SET IDENTITY_INSERT [dbo].[tbl_other_info_per_SaMI_profile] ON
+INSERT [dbo].[tbl_other_info_per_SaMI_profile] ([OtherInfoPerSaMIProfileID], [SaMIProfileID], [HaveExperienceOrTraining], [IsPreviousForeignExperienced], [CreatedBy], [CreatedDate], [UpdatedBy], [UpdatedDate], [HaveJobExperience]) VALUES (68, 1646, 0, 0, 10, CAST(0x0000A39200C1E774 AS DateTime), NULL, CAST(0x0000A39200C1E858 AS DateTime), 1)
+INSERT [dbo].[tbl_other_info_per_SaMI_profile] ([OtherInfoPerSaMIProfileID], [SaMIProfileID], [HaveExperienceOrTraining], [IsPreviousForeignExperienced], [CreatedBy], [CreatedDate], [UpdatedBy], [UpdatedDate], [HaveJobExperience]) VALUES (75, 1669, 1, 0, 11, CAST(0x0000A392002D67D4 AS DateTime), NULL, CAST(0x0000A39200F32912 AS DateTime), 0)
+INSERT [dbo].[tbl_other_info_per_SaMI_profile] ([OtherInfoPerSaMIProfileID], [SaMIProfileID], [HaveExperienceOrTraining], [IsPreviousForeignExperienced], [CreatedBy], [CreatedDate], [UpdatedBy], [UpdatedDate], [HaveJobExperience]) VALUES (77, 1673, 0, 0, 11, CAST(0x0000A3920032C094 AS DateTime), NULL, CAST(0x0000A39200F882C3 AS DateTime), 1)
+SET IDENTITY_INSERT [dbo].[tbl_other_info_per_SaMI_profile] OFF
+
+
+
+
+SET IDENTITY_INSERT [dbo].[tbl_previous_fe_experiences] ON
+INSERT [dbo].[tbl_previous_fe_experiences] ([ForeignEmploymentExperienceID], [SaMIProfileID], [CountryID], [VisitFrequencyID], [DestinationAirportID], [CreatedBy], [CreatedDate], [UpdatedBy], [UpdatedDate]) VALUES (34, 1646, 1, 1, 1, 10, CAST(0x0000A39200C1CED8 AS DateTime), NULL, CAST(0x0000A39200C1CFB5 AS DateTime))
+INSERT [dbo].[tbl_previous_fe_experiences] ([ForeignEmploymentExperienceID], [SaMIProfileID], [CountryID], [VisitFrequencyID], [DestinationAirportID], [CreatedBy], [CreatedDate], [UpdatedBy], [UpdatedDate]) VALUES (35, 1646, 2, 2, 1, 10, CAST(0x0000A39200CEE08C AS DateTime), NULL, CAST(0x0000A39200CEE198 AS DateTime))
+INSERT [dbo].[tbl_previous_fe_experiences] ([ForeignEmploymentExperienceID], [SaMIProfileID], [CountryID], [VisitFrequencyID], [DestinationAirportID], [CreatedBy], [CreatedDate], [UpdatedBy], [UpdatedDate]) VALUES (36, 1669, 9, 1, 1, 11, CAST(0x0000A392002F5FBC AS DateTime), NULL, CAST(0x0000A39200F52183 AS DateTime))
+SET IDENTITY_INSERT [dbo].[tbl_previous_fe_experiences] OFF
+
+
+
+
+SET IDENTITY_INSERT [dbo].[tbl_foreign_employment_status] ON
+INSERT [dbo].[tbl_foreign_employment_status] ([ForeignEmploymentStatusID], [SaMIProfileID], [DecisionStatusID], [PassportStatusID], [HaveJobOffer], [JobOfferSourceID], [JobOfferedTypeID], [WorkTypeID], [MadePaymentAmount], [AskedPaymentAmount], [ICKnowledgeID], [NothingAskedYet], [HavePaymentReceipt], [ReceiptPaymentAmount], [CreatedBy], [CreatedDate], [UpdatedBy], [UpdatedDate], [CountryID]) VALUES (125, 1646, 2, 1, 0, 0, 0, 4, N'', N'', 0, 1, 0, NULL, 10, CAST(0x0000A39200BF75AC AS DateTime), NULL, CAST(0x0000A39200BF75DA AS DateTime), 0)
+SET IDENTITY_INSERT [dbo].[tbl_foreign_employment_status] OFF
+
+

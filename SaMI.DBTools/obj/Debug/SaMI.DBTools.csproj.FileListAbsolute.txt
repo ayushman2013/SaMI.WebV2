@@ -1,0 +1,98 @@
+D:\Users\Suresh\Dot Net\SaMI\SaMI.DBTools\obj\Debug\ResolveAssemblyReference.cache
+D:\Users\Suresh\Dot Net\SaMI\SaMI.DBTools\bin\Debug\SaMI.DBTools.dll
+D:\Users\Suresh\Dot Net\SaMI\SaMI.DBTools\bin\Debug\SaMI.DBTools.pdb
+D:\Users\Suresh\Dot Net\SaMI\SaMI.DBTools\bin\Debug\SaMI.Utilities.dll
+D:\Users\Suresh\Dot Net\SaMI\SaMI.DBTools\bin\Debug\SaMI.Utilities.pdb
+D:\Users\Suresh\Dot Net\SaMI\SaMI.DBTools\obj\Debug\SaMI.DBTools.dll
+D:\Users\Suresh\Dot Net\SaMI\SaMI.DBTools\obj\Debug\SaMI.DBTools.pdb
+D:\Suresh\Projects\Helvetas.SaMI\SaMI.DBTools\bin\Debug\SaMI.DBTools.dll
+D:\Suresh\Projects\Helvetas.SaMI\SaMI.DBTools\bin\Debug\SaMI.DBTools.pdb
+D:\Suresh\Projects\Helvetas.SaMI\SaMI.DBTools\bin\Debug\SaMI.Utilities.dll
+D:\Suresh\Projects\Helvetas.SaMI\SaMI.DBTools\bin\Debug\SaMI.Utilities.pdb
+D:\Suresh\Projects\Helvetas.SaMI\SaMI.DBTools\obj\Debug\SaMI.DBTools.csprojResolveAssemblyReference.cache
+D:\Suresh\Projects\Helvetas.SaMI\SaMI.DBTools\obj\Debug\SaMI.DBTools.dll
+D:\Suresh\Projects\Helvetas.SaMI\SaMI.DBTools\obj\Debug\SaMI.DBTools.pdb
+J:\Helvetas.SaMI\SaMI.DBTools\bin\Debug\SaMI.DBTools.dll
+J:\Helvetas.SaMI\SaMI.DBTools\bin\Debug\SaMI.DBTools.pdb
+J:\Helvetas.SaMI\SaMI.DBTools\bin\Debug\SaMI.Utilities.dll
+J:\Helvetas.SaMI\SaMI.DBTools\bin\Debug\SaMI.Utilities.pdb
+J:\Helvetas.SaMI\SaMI.DBTools\obj\Debug\SaMI.DBTools.csprojResolveAssemblyReference.cache
+J:\Helvetas.SaMI\SaMI.DBTools\obj\Debug\SaMI.DBTools.dll
+J:\Helvetas.SaMI\SaMI.DBTools\obj\Debug\SaMI.DBTools.pdb
+D:\Documents\Helvetas.SaMI\SaMI.DBTools\bin\Debug\SaMI.DBTools.dll
+D:\Documents\Helvetas.SaMI\SaMI.DBTools\bin\Debug\SaMI.DBTools.pdb
+D:\Documents\Helvetas.SaMI\SaMI.DBTools\bin\Debug\SaMI.Utilities.dll
+D:\Documents\Helvetas.SaMI\SaMI.DBTools\bin\Debug\SaMI.Utilities.pdb
+D:\Documents\Helvetas.SaMI\SaMI.DBTools\obj\Debug\SaMI.DBTools.csprojResolveAssemblyReference.cache
+D:\Documents\Helvetas.SaMI\SaMI.DBTools\obj\Debug\SaMI.DBTools.dll
+D:\Documents\Helvetas.SaMI\SaMI.DBTools\obj\Debug\SaMI.DBTools.pdb
+D:\Helvetas.SaMI\SaMI.DBTools\bin\Debug\SaMI.DBTools.dll
+D:\Helvetas.SaMI\SaMI.DBTools\bin\Debug\SaMI.DBTools.pdb
+D:\Helvetas.SaMI\SaMI.DBTools\bin\Debug\SaMI.Utilities.dll
+D:\Helvetas.SaMI\SaMI.DBTools\bin\Debug\SaMI.Utilities.pdb
+D:\Helvetas.SaMI\SaMI.DBTools\obj\Debug\SaMI.DBTools.csprojResolveAssemblyReference.cache
+D:\Helvetas.SaMI\SaMI.DBTools\obj\Debug\SaMI.DBTools.dll
+D:\Helvetas.SaMI\SaMI.DBTools\obj\Debug\SaMI.DBTools.pdb
+D:\Documents\REBINA\NG-Outsourcing\NG-Outsourcing Projects\Helvetas.SaMI\SaMI.DBTools\bin\Debug\SaMI.DBTools.dll
+D:\Documents\REBINA\NG-Outsourcing\NG-Outsourcing Projects\Helvetas.SaMI\SaMI.DBTools\bin\Debug\SaMI.DBTools.pdb
+D:\Documents\REBINA\NG-Outsourcing\NG-Outsourcing Projects\Helvetas.SaMI\SaMI.DBTools\bin\Debug\SaMI.Utilities.dll
+D:\Documents\REBINA\NG-Outsourcing\NG-Outsourcing Projects\Helvetas.SaMI\SaMI.DBTools\bin\Debug\SaMI.Utilities.pdb
+D:\Documents\REBINA\NG-Outsourcing\NG-Outsourcing Projects\Helvetas.SaMI\SaMI.DBTools\obj\Debug\SaMI.DBTools.csprojResolveAssemblyReference.cache
+D:\Documents\REBINA\NG-Outsourcing\NG-Outsourcing Projects\Helvetas.SaMI\SaMI.DBTools\obj\Debug\SaMI.DBTools.dll
+D:\Documents\REBINA\NG-Outsourcing\NG-Outsourcing Projects\Helvetas.SaMI\SaMI.DBTools\obj\Debug\SaMI.DBTools.pdb
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.DBTools\bin\Debug\SaMI.DBTools.dll
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.DBTools\bin\Debug\SaMI.DBTools.pdb
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.DBTools\bin\Debug\SaMI.Utilities.dll
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.DBTools\bin\Debug\SaMI.Utilities.pdb
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.DBTools\obj\Debug\SaMI.DBTools.csprojResolveAssemblyReference.cache
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.DBTools\obj\Debug\SaMI.DBTools.dll
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.DBTools\obj\Debug\SaMI.DBTools.pdb
+C:\Users\Sunil Bahadur Bist\Desktop\Sami We and API\SaMI.DBTools\bin\Debug\SaMI.DBTools.dll
+C:\Users\Sunil Bahadur Bist\Desktop\Sami We and API\SaMI.DBTools\bin\Debug\SaMI.DBTools.pdb
+C:\Users\Sunil Bahadur Bist\Desktop\Sami We and API\SaMI.DBTools\bin\Debug\SaMI.Utilities.dll
+C:\Users\Sunil Bahadur Bist\Desktop\Sami We and API\SaMI.DBTools\bin\Debug\SaMI.Utilities.pdb
+C:\Users\Sunil Bahadur Bist\Desktop\Sami We and API\SaMI.DBTools\obj\Debug\SaMI.DBTools.csprojResolveAssemblyReference.cache
+C:\Users\Sunil Bahadur Bist\Desktop\Sami We and API\SaMI.DBTools\obj\Debug\SaMI.DBTools.dll
+C:\Users\Sunil Bahadur Bist\Desktop\Sami We and API\SaMI.DBTools\obj\Debug\SaMI.DBTools.pdb
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.DBTools\bin\Debug\SaMI.DBTools.dll
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.DBTools\bin\Debug\SaMI.DBTools.pdb
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.DBTools\bin\Debug\SaMI.Utilities.dll
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.DBTools\bin\Debug\SaMI.Utilities.pdb
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.DBTools\obj\Debug\SaMI.DBTools.csprojResolveAssemblyReference.cache
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.DBTools\obj\Debug\SaMI.DBTools.dll
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.DBTools\obj\Debug\SaMI.DBTools.pdb
+E:\Projects\MyComputer\SaMI.Web\SaMI.DBTools\bin\Debug\SaMI.DBTools.dll
+E:\Projects\MyComputer\SaMI.Web\SaMI.DBTools\bin\Debug\SaMI.DBTools.pdb
+E:\Projects\MyComputer\SaMI.Web\SaMI.DBTools\bin\Debug\SaMI.Utilities.dll
+E:\Projects\MyComputer\SaMI.Web\SaMI.DBTools\bin\Debug\SaMI.Utilities.pdb
+E:\Projects\MyComputer\SaMI.Web\SaMI.DBTools\obj\Debug\SaMI.DBTools.csprojResolveAssemblyReference.cache
+E:\Projects\MyComputer\SaMI.Web\SaMI.DBTools\obj\Debug\SaMI.DBTools.dll
+E:\Projects\MyComputer\SaMI.Web\SaMI.DBTools\obj\Debug\SaMI.DBTools.pdb
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.DBTools\bin\Debug\SaMI.DBTools.dll
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.DBTools\bin\Debug\SaMI.DBTools.pdb
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.DBTools\bin\Debug\SaMI.Utilities.dll
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.DBTools\bin\Debug\SaMI.Utilities.pdb
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.DBTools\obj\Debug\SaMI.DBTools.csprojResolveAssemblyReference.cache
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.DBTools\obj\Debug\SaMI.DBTools.dll
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.DBTools\obj\Debug\SaMI.DBTools.pdb
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.DBTools\bin\Debug\SaMI.DBTools.dll
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.DBTools\bin\Debug\SaMI.DBTools.pdb
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.DBTools\bin\Debug\SaMI.Utilities.dll
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.DBTools\bin\Debug\SaMI.Utilities.pdb
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.DBTools\obj\Debug\SaMI.DBTools.csprojResolveAssemblyReference.cache
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.DBTools\obj\Debug\SaMI.DBTools.dll
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.DBTools\obj\Debug\SaMI.DBTools.pdb
+D:\Documents\REBINA\SVN\SaMi.Web\trunk\SaMI.DBTools\bin\Debug\SaMI.DBTools.dll
+D:\Documents\REBINA\SVN\SaMi.Web\trunk\SaMI.DBTools\bin\Debug\SaMI.DBTools.pdb
+D:\Documents\REBINA\SVN\SaMi.Web\trunk\SaMI.DBTools\bin\Debug\SaMI.Utilities.dll
+D:\Documents\REBINA\SVN\SaMi.Web\trunk\SaMI.DBTools\bin\Debug\SaMI.Utilities.pdb
+D:\Documents\REBINA\SVN\SaMi.Web\trunk\SaMI.DBTools\obj\Debug\SaMI.DBTools.csprojResolveAssemblyReference.cache
+D:\Documents\REBINA\SVN\SaMi.Web\trunk\SaMI.DBTools\obj\Debug\SaMI.DBTools.dll
+D:\Documents\REBINA\SVN\SaMi.Web\trunk\SaMI.DBTools\obj\Debug\SaMI.DBTools.pdb
+C:\Users\bina\Documents\Visual Studio 2012\Projects\SaMI.WebV2\SaMI.DBTools\bin\Debug\SaMI.DBTools.dll
+C:\Users\bina\Documents\Visual Studio 2012\Projects\SaMI.WebV2\SaMI.DBTools\bin\Debug\SaMI.DBTools.pdb
+C:\Users\bina\Documents\Visual Studio 2012\Projects\SaMI.WebV2\SaMI.DBTools\bin\Debug\SaMI.Utilities.dll
+C:\Users\bina\Documents\Visual Studio 2012\Projects\SaMI.WebV2\SaMI.DBTools\bin\Debug\SaMI.Utilities.pdb
+C:\Users\bina\Documents\Visual Studio 2012\Projects\SaMI.WebV2\SaMI.DBTools\obj\Debug\SaMI.DBTools.csprojResolveAssemblyReference.cache
+C:\Users\bina\Documents\Visual Studio 2012\Projects\SaMI.WebV2\SaMI.DBTools\obj\Debug\SaMI.DBTools.dll
+C:\Users\bina\Documents\Visual Studio 2012\Projects\SaMI.WebV2\SaMI.DBTools\obj\Debug\SaMI.DBTools.pdb

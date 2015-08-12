@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{5943E722-28B0-492A-AA20-9A1C6B02C9E3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SaMI.DataAccess</RootNamespace>
+    <AssemblyName>SaMI.DataAccess</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdditionalFollowUpInfoPerServiceDAO.cs" />
+    <Compile Include="AddtionalFollowUpInfoDAO.cs" />
+    <Compile Include="AgeGroupsDAO.cs" />
+    <Compile Include="BaseDAO.cs" />
+    <Compile Include="CaseDAO.cs" />
+    <Compile Include="CaseDocumentationsDAO.cs" />
+    <Compile Include="CaseFollowUpDAO.cs" />
+    <Compile Include="CaseReferralHistoryDAO.cs" />
+    <Compile Include="CaseReferredDAO.cs" />
+    <Compile Include="CaseRegistrarDAO.cs" />
+    <Compile Include="CaseStatusTypeDAO.cs" />
+    <Compile Include="CaseTypesDAO.cs" />
+    <Compile Include="CasteDAO.cs" />
+    <Compile Include="CounselorDifficultiesDAO.cs" />
+    <Compile Include="CounselorDifficultiesPerServiceDAO.cs" />
+    <Compile Include="CountriesDAO.cs" />
+    <Compile Include="DecisionStatusDAO.cs" />
+    <Compile Include="DestinationAirportsDAO.cs" />
+    <Compile Include="DistrictsDAO.cs" />
+    <Compile Include="DocumentsBehindDAO.cs" />
+    <Compile Include="DocumentTypesDAO.cs" />
+    <Compile Include="EducationalStatusDAO.cs" />
+    <Compile Include="EmploymentDAO.cs" />
+    <Compile Include="EmploymentSkillDAO.cs" />
+    <Compile Include="EthnicityDAO.cs" />
+    <Compile Include="EvidenceTypeDAO.cs" />
+    <Compile Include="FamilyMembersDAO.cs" />
+    <Compile Include="FEDocumentsPerSaMIProfileDAO.cs" />
+    <Compile Include="FeedDurationTypeDAO.cs" />
+    <Compile Include="PhoneFollowUpInfoDAO.cs" />
+    <Compile Include="PhoneFollowUpDAO.cs" />
+    <Compile Include="FollowUpDAO.cs" />
+    <Compile Include="FollowUpPerServicesDAO.cs" />
+    <Compile Include="ForeignEmploymentStatusDAO.cs" />
+    <Compile Include="ICKnowledgesDAO.cs" />
+    <Compile Include="ICRecommendationsDAO.cs" />
+    <Compile Include="ICRecommendationsPerServiceDAO.cs" />
+    <Compile Include="JobOfferedTypesDAO.cs" />
+    <Compile Include="JobOfferSourcesDAO.cs" />
+    <Compile Include="KnowAboutTrainingDAO.cs" />
+    <Compile Include="MaritalStatusDAO.cs" />
+    <Compile Include="MoneyRangesDAO.cs" />
+    <Compile Include="NonFollowUpReasonsDAO.cs" />
+    <Compile Include="NonReferralReasonsDAO.cs" />
+    <Compile Include="OtherFollowupPerServiceDAO.cs" />
+    <Compile Include="OtherInfoPerSaMIProfileDAO.cs" />
+    <Compile Include="OtherMemberMigrationDAO.cs" />
+    <Compile Include="PassportStatusDAO.cs" />
+    <Compile Include="PaymentRangesDAO.cs" />
+    <Compile Include="OccupationTypeDAO.cs" />
+    <Compile Include="PreviousFEExperienceDAO.cs" />
+    <Compile Include="ProblemTypesDAO.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReferralStatusDAO.cs" />
+    <Compile Include="ReferralToDAO.cs" />
+    <Compile Include="SaMIOrganizationDAO.cs" />
+    <Compile Include="SaMIProfileDAO.cs" />
+    <Compile Include="ServicesProvidedDAO.cs" />
+    <Compile Include="ServicesProvidedPerSaMIDAO.cs" />
+    <Compile Include="StakeholderDAO.cs" />
+    <Compile Include="StayDurationDAO.cs" />
+    <Compile Include="TrainingReasonTypeDAO.cs" />
+    <Compile Include="TRNCheckListDAO.cs" />
+    <Compile Include="TRNCurrentEmploymentDAO.cs" />
+    <Compile Include="TRNDepartureChecklistDAO.cs" />
+    <Compile Include="TRNEducationLevelDAO.cs" />
+    <Compile Include="TRNEmploymentDAO.cs" />
+    <Compile Include="TRNEmploymentStatusDAO.cs" />
+    <Compile Include="TRNEmploymentTypeDAO.cs" />
+    <Compile Include="TRNEthnicityDAO.cs" />
+    <Compile Include="TRNInformationSourceDAO.cs" />
+    <Compile Include="TRNOrganizationDAO.cs" />
+    <Compile Include="TRNPreviousTrainingDAO.cs" />
+    <Compile Include="TRNRecruitmentAgencyDAO.cs" />
+    <Compile Include="TRNRecruitmentListDAO.cs" />
+    <Compile Include="TRNTradeDAO.cs" />
+    <Compile Include="TRNTraineeDAO.cs" />
+    <Compile Include="TRNTrainingAgencyDAO.cs" />
+    <Compile Include="TRNTrainingEventDAO.cs" />
+    <Compile Include="UserDAO.cs" />
+    <Compile Include="UserTypeDAO.cs" />
+    <Compile Include="VDCDAO.cs" />
+    <Compile Include="VisitFrequenciesDAO.cs" />
+    <Compile Include="VisitFrequencyICCDAO.cs" />
+    <Compile Include="VisitReasonDAO.cs" />
+    <Compile Include="WorkTypesDAO.cs" />
+    <Compile Include="ZonesDAO.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SaMI.DBTools\SaMI.DBTools.csproj">
+      <Project>{B90EFE7D-148A-43B6-87E9-14AF01AB9376}</Project>
+      <Name>SaMI.DBTools</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SaMI.DTO\SaMI.DTO.csproj">
+      <Project>{D9CF3599-D85D-4965-819C-B61BD050A1A4}</Project>
+      <Name>SaMI.DTO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SaMI.Utilities\SaMI.Utilities.csproj">
+      <Project>{B51C8E16-0205-4EAC-854A-297A732C40B1}</Project>
+      <Name>SaMI.Utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

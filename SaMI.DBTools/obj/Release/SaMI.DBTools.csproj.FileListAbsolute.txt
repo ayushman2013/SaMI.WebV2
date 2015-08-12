@@ -1,0 +1,42 @@
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.DBTools\bin\Release\SaMI.DBTools.dll
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.DBTools\bin\Release\SaMI.DBTools.pdb
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.DBTools\bin\Release\SaMI.Utilities.dll
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.DBTools\bin\Release\SaMI.Utilities.pdb
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.DBTools\obj\Release\SaMI.DBTools.csprojResolveAssemblyReference.cache
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.DBTools\obj\Release\SaMI.DBTools.dll
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.DBTools\obj\Release\SaMI.DBTools.pdb
+D:\Soft\Projects\Helvetas.SaMI\SaMI.DBTools\bin\Release\SaMI.DBTools.dll
+D:\Soft\Projects\Helvetas.SaMI\SaMI.DBTools\bin\Release\SaMI.DBTools.pdb
+D:\Soft\Projects\Helvetas.SaMI\SaMI.DBTools\bin\Release\SaMI.Utilities.dll
+D:\Soft\Projects\Helvetas.SaMI\SaMI.DBTools\bin\Release\SaMI.Utilities.pdb
+D:\Soft\Projects\Helvetas.SaMI\SaMI.DBTools\obj\Release\SaMI.DBTools.csprojResolveAssemblyReference.cache
+D:\Soft\Projects\Helvetas.SaMI\SaMI.DBTools\obj\Release\SaMI.DBTools.dll
+D:\Soft\Projects\Helvetas.SaMI\SaMI.DBTools\obj\Release\SaMI.DBTools.pdb
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.DBTools\bin\Release\SaMI.DBTools.dll
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.DBTools\bin\Release\SaMI.DBTools.pdb
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.DBTools\bin\Release\SaMI.Utilities.dll
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.DBTools\bin\Release\SaMI.Utilities.pdb
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.DBTools\obj\Release\SaMI.DBTools.csprojResolveAssemblyReference.cache
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.DBTools\obj\Release\SaMI.DBTools.dll
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.DBTools\obj\Release\SaMI.DBTools.pdb
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.DBTools\bin\Release\SaMI.DBTools.dll
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.DBTools\bin\Release\SaMI.DBTools.pdb
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.DBTools\bin\Release\SaMI.Utilities.dll
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.DBTools\bin\Release\SaMI.Utilities.pdb
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.DBTools\obj\Release\SaMI.DBTools.csprojResolveAssemblyReference.cache
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.DBTools\obj\Release\SaMI.DBTools.dll
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.DBTools\obj\Release\SaMI.DBTools.pdb
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.DBTools\bin\Release\SaMI.DBTools.dll
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.DBTools\bin\Release\SaMI.DBTools.pdb
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.DBTools\bin\Release\SaMI.Utilities.dll
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.DBTools\bin\Release\SaMI.Utilities.pdb
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.DBTools\obj\Release\SaMI.DBTools.csprojResolveAssemblyReference.cache
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.DBTools\obj\Release\SaMI.DBTools.dll
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.DBTools\obj\Release\SaMI.DBTools.pdb
+D:\Documents\REBINA\SVN\SaMi.Web\trunk\SaMI.DBTools\bin\Release\SaMI.DBTools.dll
+D:\Documents\REBINA\SVN\SaMi.Web\trunk\SaMI.DBTools\bin\Release\SaMI.DBTools.pdb
+D:\Documents\REBINA\SVN\SaMi.Web\trunk\SaMI.DBTools\bin\Release\SaMI.Utilities.dll
+D:\Documents\REBINA\SVN\SaMi.Web\trunk\SaMI.DBTools\bin\Release\SaMI.Utilities.pdb
+D:\Documents\REBINA\SVN\SaMi.Web\trunk\SaMI.DBTools\obj\Release\SaMI.DBTools.csprojResolveAssemblyReference.cache
+D:\Documents\REBINA\SVN\SaMi.Web\trunk\SaMI.DBTools\obj\Release\SaMI.DBTools.dll
+D:\Documents\REBINA\SVN\SaMi.Web\trunk\SaMI.DBTools\obj\Release\SaMI.DBTools.pdb

@@ -1,0 +1,30 @@
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.DTO\bin\Release\SaMI.DTO.dll
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.DTO\bin\Release\SaMI.DTO.pdb
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.DTO\obj\Release\SaMI.DTO.dll
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.DTO\obj\Release\SaMI.DTO.pdb
+D:\Documents\REBINA\NG-Outsourcing\backup\Helvetas.SaMI\SaMI.DTO\obj\Release\SaMI.DTO.csprojResolveAssemblyReference.cache
+D:\Soft\Projects\Helvetas.SaMI\SaMI.DTO\bin\Release\SaMI.DTO.dll
+D:\Soft\Projects\Helvetas.SaMI\SaMI.DTO\bin\Release\SaMI.DTO.pdb
+D:\Soft\Projects\Helvetas.SaMI\SaMI.DTO\obj\Release\SaMI.DTO.csprojResolveAssemblyReference.cache
+D:\Soft\Projects\Helvetas.SaMI\SaMI.DTO\obj\Release\SaMI.DTO.dll
+D:\Soft\Projects\Helvetas.SaMI\SaMI.DTO\obj\Release\SaMI.DTO.pdb
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.DTO\bin\Release\SaMI.DTO.dll
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.DTO\bin\Release\SaMI.DTO.pdb
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.DTO\obj\Release\SaMI.DTO.csprojResolveAssemblyReference.cache
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.DTO\obj\Release\SaMI.DTO.dll
+I:\SaMI.Web.FInal\SaMI.Web\SaMI.DTO\obj\Release\SaMI.DTO.pdb
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.DTO\bin\Release\SaMI.DTO.dll
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.DTO\bin\Release\SaMI.DTO.pdb
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.DTO\obj\Release\SaMI.DTO.csprojResolveAssemblyReference.cache
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.DTO\obj\Release\SaMI.DTO.dll
+D:\Suresh\Projects\SVN\SaMI.Web\SaMI.DTO\obj\Release\SaMI.DTO.pdb
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.DTO\bin\Release\SaMI.DTO.dll
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.DTO\bin\Release\SaMI.DTO.pdb
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.DTO\obj\Release\SaMI.DTO.csprojResolveAssemblyReference.cache
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.DTO\obj\Release\SaMI.DTO.dll
+D:\Documents\REBINA\Pen drive\SaMI.Web\SaMI.DTO\obj\Release\SaMI.DTO.pdb
+D:\Documents\REBINA\SVN\SaMi.Web\trunk\SaMI.DTO\bin\Release\SaMI.DTO.dll
+D:\Documents\REBINA\SVN\SaMi.Web\trunk\SaMI.DTO\bin\Release\SaMI.DTO.pdb
+D:\Documents\REBINA\SVN\SaMi.Web\trunk\SaMI.DTO\obj\Release\SaMI.DTO.csprojResolveAssemblyReference.cache
+D:\Documents\REBINA\SVN\SaMi.Web\trunk\SaMI.DTO\obj\Release\SaMI.DTO.dll
+D:\Documents\REBINA\SVN\SaMi.Web\trunk\SaMI.DTO\obj\Release\SaMI.DTO.pdb
